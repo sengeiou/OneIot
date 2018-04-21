@@ -1,0 +1,59 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127947 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/fragment_band_dashboard">
+        <toolbar_viewpager>
+            <!-- Add pages to your ViewPager here like so:
+            <_page title="page title" icon="@drawable/my_icon"/>
+            <_page layout="@layout/my_page_layout">
+                <my_image_view src="@drawable/my_image"/>
+            </_page>
+            -->
+        </toolbar_viewpager>
+        <!-- TextView Examples:
+        <text_first text="@string/string_resource" />
+        <text_first text="Text literal" textSize="14sp" /> -->
+        <text_first />
+        <text_first_unit />
+        <text_second />
+        <text_second_unit />
+        <text_third />
+        <text_third_unit />
+        <text_title />
+        <text_value />
+        <recycler_dashboard_card layoutManager="linear:vertical">
+        <!-- Examples of valid layoutManager values: "linear", "staggeredGrid:5:horizontal", "staggeredGrid:4" -->
+            <items layout="@android:layout/simple_list_item_1" >
+                <_item>
+                    <text1>Vancouver</text1>
+                </_item>
+                <_item>
+                    <text1>Cairo</text1>
+                </_item>
+                <_item>
+                    <text1>New York</text1>
+                </_item>
+                <_item>
+                    <text1>San Francisco</text1>
+                </_item>
+                <_item>
+                    <text1>Seattle</text1>
+                </_item>
+                <_item>
+                    <text1>Hong Kong</text1>
+                </_item>
+                <_item>
+                    <text1>Tokyo</text1>
+                </_item>
+            </items>
+                </recycler_dashboard_card>
+        <!-- ImageView Examples:
+        <float_button_bg src="@drawable/image_resource" />
+        <float_button_bg src="relative_path/image.jpg" /> -->
+        <float_button_bg />
+    </_content>
+</screen>

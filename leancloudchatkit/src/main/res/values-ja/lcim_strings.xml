@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lcim_chatkit_name">LeanCloudChatKit</string>
+
+    <string name="lcim_chat_bottom_record_layout_pressToRecord">レコードを保持します</string>
+    <string name="lcim_chat_sent">送信されました</string>
+    <string name="lcim_chat_cancelRecord">録音をキャンセル</string>
+    <string name="lcim_unspport_message_type">このメッセージタイプはサポートされていません。</string>
+    <string name="lcim_message_is_null">メッセージは空にすることはできません</string>
+    <string name="lcim_chat_bottom_picture">フォト</string>
+    <string name="lcim_chat_bottom_camera">撮影</string>
+    <string name="lcim_chat_bottom_location">場所</string>
+    <string name="lcim_chat_record_button_slideUpToCancel">指が送信キャンセル、スリップ</string>
+    <string name="lcim_chat_record_button_releaseToCancel">録画をキャンセルする指を離し</string>
+    <string name="lcim_chat_activity_select_picture">選択画像</string>
+    <string name="lcim_chat_record_button_pleaseSayMore">それを言うためのポイント～</string>
+    <string name="lcim_load_more_footer_hint_normal">もっと見ます</string>
+
+    <string name="lcim_message_shorthand_image">[画像]</string>
+    <string name="lcim_message_shorthand_location">[場所]</string>
+    <string name="lcim_message_shorthand_audio">[音声]</string>
+    <string name="lcim_message_shorthand_unknown">[不明]</string>
+
+    <string name="yesterday">昨日</string>
+    <string name="delete_this_chat">このチャットを削除</string>
+</resources>

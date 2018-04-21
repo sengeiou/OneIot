@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127901 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/band_alarm">
+        <!-- ImageView Examples:
+        <band_alarm_icon src="@drawable/image_resource" />
+        <band_alarm_icon src="relative_path/image.jpg" /> -->
+        <band_alarm_icon />
+        <!-- TextView Examples:
+        <text_band_alarm_title text="@string/string_resource" />
+        <text_band_alarm_title text="Text literal" textSize="14sp" /> -->
+        <text_band_alarm_title />
+        <text_band_alarm_status />
+    </_content>
+</screen>

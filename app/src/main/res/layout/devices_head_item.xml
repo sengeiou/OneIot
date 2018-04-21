@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/relative_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/device_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/gray_circle_bkg"
+        android:padding="10dp"
+        android:src="@drawable/imco_select_device_imcoband_black"/>
+
+    <ImageView
+        android:id="@+id/iv_head_circle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/device_loading"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text_imco_band"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/device_icon"
+        android:maxLines="1"
+        android:text="CoBand DBL"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/ll_connection_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_imco_band"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/device_icon"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bluetooth_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/device_icon"
+            android:src="@drawable/ic_bluetooth_blue_700_24dp"/>
+
+        <TextView
+            android:id="@+id/tv_connection_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/disconnect"
+            android:textColor="@color/color_a0a0a0"
+            android:textSize="@dimen/font_10"/>
+
+    </LinearLayout>
+
+    <com.coband.cocoband.widget.widget.BatteryView
+        android:id="@+id/battery_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_connection_status"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/device_icon"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_reconnection"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/ll_connection_status"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/device_icon"
+        android:text="@string/connect"
+        android:textColor="@color/color_1E78FF"
+        android:textSize="@dimen/text_small_less"
+        android:visibility="gone"/>
+
+</RelativeLayout>

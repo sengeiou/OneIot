@@ -1,0 +1,20 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127907 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/crop_activity">
+        <!-- ImageView Examples:
+        <image_center src="@drawable/image_resource" />
+        <image_center src="relative_path/image.jpg" /> -->
+        <image_center />
+        <btn_crop_type />
+        <!-- TextView Examples:
+        <cancel text="@string/string_resource" />
+        <cancel text="Text literal" textSize="14sp" /> -->
+        <cancel />
+        <picked />
+    </_content>
+</screen>

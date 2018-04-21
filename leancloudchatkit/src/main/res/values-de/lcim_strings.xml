@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lcim_chatkit_name">LeanCloudChatKit</string>
+
+    <string name="lcim_chat_bottom_record_layout_pressToRecord">Den Rekord halten</string>
+    <string name="lcim_chat_sent">Sent</string>
+    <string name="lcim_chat_cancelRecord">Brechen Sie die Aufnahme</string>
+    <string name="lcim_unspport_message_type">Dieser Nachrichtentyp wird nicht unterstützt</string>
+    <string name="lcim_message_is_null">Nachricht kann nicht leer sein</string>
+    <string name="lcim_chat_bottom_picture">Foto</string>
+    <string name="lcim_chat_bottom_camera">Schießen</string>
+    <string name="lcim_chat_bottom_location">Lage</string>
+    <string name="lcim_chat_record_button_slideUpToCancel">Finger gleiten, brechen Sie das Senden</string>
+    <string name="lcim_chat_record_button_releaseToCancel">Lassen Sie die Finger, um die Aufnahme abzubrechen</string>
+    <string name="lcim_chat_activity_select_picture">Bild auswählen</string>
+    <string name="lcim_chat_record_button_pleaseSayMore">Punkt zu sagen, es ～</string>
+    <string name="lcim_load_more_footer_hint_normal">weitere</string>
+
+    <string name="lcim_message_shorthand_image">[Bild]</string>
+    <string name="lcim_message_shorthand_location">[Ort]</string>
+    <string name="lcim_message_shorthand_audio">[Voice]</string>
+    <string name="lcim_message_shorthand_unknown">[Unknown]</string>
+
+    <string name="yesterday">gestern</string>
+    <string name="delete_this_chat">Löschen Sie diesen Chat</string>
+
+</resources>

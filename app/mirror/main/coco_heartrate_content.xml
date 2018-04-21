@@ -1,0 +1,43 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127939 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/coco_heartrate_content">
+        <!-- TextView Examples:
+        <top_heartrate text="@string/string_resource" />
+        <top_heartrate text="Text literal" textSize="14sp" /> -->
+        <top_heartrate />
+        <average_heartrate />
+        <low_heartrate />
+        <test_status />
+        <recycler_view_rate layoutManager="linear:vertical">
+        <!-- Examples of valid layoutManager values: "linear", "staggeredGrid:5:horizontal", "staggeredGrid:4" -->
+            <items layout="@android:layout/simple_list_item_1" >
+                <_item>
+                    <text1>Apple</text1>
+                </_item>
+                <_item>
+                    <text1>Orange</text1>
+                </_item>
+                <_item>
+                    <text1>Pear</text1>
+                </_item>
+                <_item>
+                    <text1>Grapefruit</text1>
+                </_item>
+                <_item>
+                    <text1>Banana</text1>
+                </_item>
+                <_item>
+                    <text1>Lemon</text1>
+                </_item>
+                <_item>
+                    <text1>Carrot</text1>
+                </_item>
+            </items>
+                </recycler_view_rate>
+    </_content>
+</screen>

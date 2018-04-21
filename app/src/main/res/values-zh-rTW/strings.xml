@@ -1,0 +1,574 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">CoBand</string>
+    <string name="join_imco">加入CoBand</string>
+    <string name="sign_in">登錄</string>
+    <string name="hint_username">用戶名</string>
+    <string name="hint_password">密碼(不少於6位)</string>
+    <string name="hint_email">Email</string>
+    <string name="next">下一步</string>
+    <string name="agreement">點擊 下一步 即視為同意 <a href="http://www.priodigit.com/a/guanyu/36.html?1516119758">CoBand的使用條款</a></string>
+    <string name="email_format_error_tips">郵箱格式錯誤,請重新填寫</string>
+    <string name="ok">好</string>
+    <string name="forgot_password">忘記密碼了</string>
+    <string name="kg">公斤</string>
+    <string name="cm">厘米</string>
+    <string name="height">身高</string>
+    <string name="female">女</string>
+    <string name="male">男</string>
+    <string name="birthday">生日</string>
+    <string name="weight">體重</string>
+    <string name="save">保存</string>
+    <string name="nickname">您的昵稱</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="send_email">發送</string>
+    <string name="send_email_tips">壹封重置密碼的郵件將發送到您註冊的郵箱,如果未收到郵件,請檢查\"垃圾郵箱\"</string>
+    <string name="hint_input_register_email">請輸入您綁定的郵箱地址</string>
+    <string name="unkonw_error">未知錯誤</string>
+    <string name="unkonw_error_tips">未知錯誤,請檢查您的網絡</string>
+
+    <string name="leaderboard">排行榜</string>
+    <string name="calory">卡路里</string>
+    <string name="km">公里</string>
+    <string name="step">步數</string>
+    <string name="today">今日</string>
+
+    <string name="day_step_ave">日均步數</string>
+    <string name="total_step">總計步數</string>
+    <string name="no_data">沒有數據</string>
+    <string name="exit">退出</string>
+    <string name="settings">設定</string>
+    <string name="select_image">選擇圖片</string>
+    <string name="take_photo">拍照</string>
+    <string name="hour">小時</string>
+    <string name="minute">分鐘</string>
+
+    <string name="share">分享</string>
+
+    <string name="best_single_day">單日最佳步數  %d步</string>
+
+    <string name="not_support_ble">該設備不支持藍牙4.0</string>
+    <string name="band_target">目標</string>
+    <string name="heart_rate">心率</string>
+    <string name="sleep">睡眠</string>
+    <string name="sport">運動</string>
+    <string name="deep_sleep">深睡</string>
+    <string name="band_target_settings_tips">改變，從微小的行動開始，設定一個只屬於自己的目標，讓生活方式更加積極健康！</string>
+    <string name="step_unit">步</string>
+    <string name="find_band">查找手環</string>
+    <string name="shake">搖壹搖拍照</string>
+
+    <string name="sedentary_tips">檢測到您壹段時間沒有走動,手環會震動</string>
+    <string name="band_alarm_off">關閉</string>
+    <string name="lose_warn">智能防丟</string>
+    <string name="screen_sleep_remind">滅屏時間</string>
+    <string name="five_seconds">5秒</string>
+    <string name="search_band_tips">請確保手環貼近手機,並且有電</string>
+    <string name="cancel">取消</string>
+    <string name="search_retry">重試</string>
+    <string name="date">日期</string>
+    <string name="confirm">確認</string>
+
+    <string name="modify_band_name">修改手環名稱</string>
+    <string name="unbind_band">解除綁定</string>
+    <string name="measure">測量</string>
+    <string name="light_sleep">淺睡</string>
+    <string name="wake">清醒</string>
+    <string name="walk">步行</string>
+    <string name="lack_sleep">不足</string>
+    <string name="poor_sleep">差</string>
+    <string name="good_sleep">優</string>
+    <string name="sleep_quality">睡眠質量</string>
+    <string name="target_completion">目標完成</string>
+    <string name="sport_distance">里程</string>
+    <string name="band_day_ave_step">日均步數</string>
+    <string name="yesterday">昨天</string>
+    <string name="killo_calory">千卡</string>
+
+    <string name="monday">週一</string>
+    <string name="tuesday">週二</string>
+    <string name="wednesday">週三</string>
+    <string name="thursday">週四</string>
+    <string name="friday">週五</string>
+    <string name="saturday">週六</string>
+    <string name="sunday">週日</string>
+    <string name="one_week">一週</string>
+
+    <string name="shake_camera_tip">戴上手環, 輕輕的搖壹搖 \n 即可自動拍照哦.</string>
+    <string name="camera_fail_tip">拍照失敗，請重試！</string>
+    <string name="process_is_complete">處理完成!</string>
+    <string name="processing">處理中 &#8230;</string>
+    <string name="one_day_sleep">全天睡眠</string>
+    <string name="day_ave_sleep">日均睡眠</string>
+    <string name="times">次</string>
+    <string name="average">平均</string>
+    <string name="check_network">網絡連接失敗！</string>
+    <string name="last_heart_rate_testing">上一次測量結果</string>
+    <string name="measuring">正在測量</string>
+    <string name="device_disconnected">未連接手環</string>
+    <string name="reset_success">恢復出廠設定成功</string>
+    <string name="exit_tips">確定退出?</string>
+    <string name="fragment_help_title">使用幫助</string>
+    <string name="imco">CoBand</string>
+    <string name="band_agreement_privacy">用戶協議及隱私政策</string>
+    <string name="current_version">當前版本</string>
+    <string name="reset_title">提示</string>
+    <string name="reset_tips">該操作將清除手機應用以及手環的計步和睡眠數據!恢復出廠設定後需要重新連接才能激活手環.</string>
+    <string name="lose_warning_tips">當手環遠離手機的時候手機會響鈴提醒</string>
+    <string name="keep_connected">手環與手機保持連接</string>
+    <string name="remind_time">提醒時間</string>
+    <string name="band_alarm">手環鬧鐘</string>
+    <string name="fifth_seconds">15秒</string>
+    <string name="ten_seconds">10秒</string>
+    <string name="screen_sleep_time">熄屏時間</string>
+    <string name="update_image_tips">檢測到手環軟體新版本</string>
+    <string name="update_image_title">手環軟體更新</string>
+    <string name="confire_is_network_available">請確認網絡是否可用</string>
+    <string name="please_connect_bracelet">請連接手環</string>
+    <string name="open">已開啟</string>
+    <string name="close">未開啟</string>
+    <string name="seconds">秒</string>
+    <string name="everyday">每天</string>
+
+    <string name="card_never_bond">您或許真的需要一個手環, 玩轉智能生活</string>
+    <string name="card_unbond">如果您已經有了iMCO手環, 記得綁定哦</string>
+    <string name="card_bad_sleep">您的睡眠時長不達標哦,睡眠質量比較差,再忙也要抽多點時間睡覺.</string>
+    <string name="card_normal_sleep">您的睡眠質量壹般,放松心情睡個好覺吧.</string>
+    <string name="card_good_sleep">您的睡眠質量不錯哦,繼續保持.</string>
+    <string name="card_no_sport_goal">嘿, 沒有目標真的很可怕,快去設定屬於自己的步行目標吧</string>
+    <string name="card_no_sleep_goal">睡得香才有精神工作和學習,給自己定壹個睡眠目標吧</string>
+    <string name="card_goal_20000">我滴個神啊,您居然超額完成目標</string>
+    <string name="card_goal_16000">要逆天嗎!您居然完成了目標</string>
+    <string name="card_goal_8000">恭喜您完成了目標</string>
+    <string name="card_goal_4000">太棒了,您完成了目標</string>
+    <string name="card_goal_2000">好吧,我就當您完成了目標</string>
+    <string name="modify_avatar">修改頭像</string>
+
+    <string name="card_sleep_completed">您完成了目標</string>
+    <string name="card_welcome">終於等到您,歡迎加入iMCO</string>
+    <string name="card_leadboard_in_100">恭喜您奪得了第 %1$s 名</string>
+    <string name="card_sport_uncomplete_step">哇哦, 還差 %1$s 步就可以完成目標了.</string>
+    <string name="note_lost">防丟提示</string>
+    <string name="message_note_lost">您的手環在安全距離外.</string>
+    <string name="inch">英制</string>
+    <string name="metric_system">公制</string>
+    <string name="sync_error">同步數據失敗，請手動同步！</string>
+    <string name="bond_help_title_1">檢查手環是否有電,並靠近手機</string>
+    <string name="bond_help_title_2">檢查附近是否有其他手機綁定多手環</string>
+    <string name="bond_help_title_3">重啟手機藍牙</string>
+    <string name="bond_help_title_4">重啟手機</string>
+    <string name="bond_help_content_1">如果手環沒有電,請將手環充滿電之後再進行綁定</string>
+    <string name="bond_help_content_2">如果手環被附近其他手機綁定過,可先將該手機藍牙關閉或者解除綁定,再使用當前手機進行綁定</string>
+    <string name="bond_help_content_3">在手環有電並且靠近手機的情況下,仍然不能搜索到設備,可以重啟藍牙,進行再次搜索</string>
+    <string name="bond_help_content_4">如果重啟藍牙也無法搜索到設備,請嘗試重啟手機</string>
+    <string name="band_name_empty">手環名稱不能為空</string>
+    <string name="connect">連接</string>
+    <string name="connecting">正在連接 &#8230;</string>
+    <string name="connect_failed">連接失敗</string>
+    <string name="sign_in_error">登錄失敗</string>
+    <string name="network_error">網絡不可用</string>
+    <string name="foot">英尺</string>
+
+    <string name="frequent_access_server">請勿頻繁訪問服務器</string>
+
+
+    <string name="app_new_version">新版本</string>
+    <string name="download">下載</string>
+    <string name="connected">已連接</string>
+    <string name="disconnect">未連接</string>
+    <string name="syncing">正在同步數據,請稍後</string>
+
+    <string name="hour_short">小時</string>
+    <string name="minute_short">分鐘</string>
+    <string name="share_to">分享到...</string>
+    <string name="other">其它</string>
+
+    <string name="heart_rate_result">心率测量结果为 </string>
+    <string name="user_profile">個人信息</string>
+    <string name="bluetooth_service_disabled">藍牙服务不可用，請尝试重启藍牙或者手机</string>
+    <string name="stop_measure">停止測量</string>
+    <string name="delete">刪除</string>
+    <string name="miles">英裡</string>
+    <string name="lb">磅</string>
+    <string name="loading">載入中...</string>
+    <string name="friend">好友</string>
+    <string name="contact_alreadyCreateAddRequest">請求已經發送！</string>
+    <string name="chat_utils_hardLoading">努力加載中...</string>
+    <string name="add_friend">添加好友</string>
+    <string name="request_friend">好友請求</string>
+    <string name="message_when_agree_request">我們已經是好朋友了，來聊天吧</string>
+    <string name="lcim_chat_bottom_location">定位</string>
+    <string name="search_friends">搜索用戶名/郵箱</string>
+    <string name="send_error">發送失敗</string>
+    <string name="buy_tips">無設備，去iMCO商店看看</string>
+    <string name="select_device">選擇設備</string>
+    <string name="device_shop">iMCO旗艦店</string>
+    <string name="tilt_watch_light_screen">抬腕亮屏</string>
+    <string name="light_screen_tips">抬起手腕查看手環信息</string>
+    <string name="sedentary_remind">久坐提醒</string>
+    <string name="no_disturbing_tips">开启勿扰模式后，来电和消息将不再手环上提醒，手环将关闭屏幕，关闭振動功能。</string>
+    <string name="highest_heart_rate_tips">高與此心率，手环会振動提醒</string>
+    <string name="time_span">時間間隔</string>
+    <string name="twenty_seconds">20秒</string>
+    <string name="twenty_five_seconds">25秒</string>
+    <string name="not_remind">不再提醒</string>
+    <string name="go_app_store">google play</string>
+    <string name="data_sync_complete">數據同步完成</string>
+
+
+    <string name="jiuzuo_remind">久坐提醒</string>
+    <string name="call_remind">來電提醒</string>
+    <string name="band_alarm_remind">手環鬧鐘</string>
+    <string name="message_remind">消息提醒</string>
+    <string name="unit">單位</string>
+    <string name="bond_help">手環綁定幫助</string>
+    <string name="heart_rate_monitor">心率監測</string>
+    <string name="no_disturbing">勿扰模式</string>
+    <string name="start_time">开始時間</string>
+    <string name="end_time">结束時間</string>
+    <string name="time_open">定時开启</string>
+    <string name="message_no_disturbing">消息勿扰</string>
+    <string name="vibration_no_disturbing">振動勿扰</string>
+    <string name="screen_no_disturbing">屏幕勿扰</string>
+    <string name="real_time_heart_rate">实時心率</string>
+    <string name="heart_rate_remind">心率提醒</string>
+    <string name="highest_heart_rate">最高心率</string>
+    <string name="time_measure">定時测量</string>
+
+    <string name="first_time_summary">第壹次使用計步器功能，即可獲得該卡片.</string>
+    <string name="more_than_10000_summary">即使壹個人太孤單，也要勇敢邁出第壹步。單日最好成績達到10000步，即可獲得該卡片</string>
+    <string name="more_than_20000_summary">壹年之計在於春，壹天之計在於晨。單日最好成績達到20000步，即可獲得該卡片.</string>
+    <string name="more_than_30000_summary">人的壹生會遇到無數個對手,也要面臨各種各樣的挑戰。單日最好成績達到20000步，即可獲得該卡片.</string>
+
+    <string name="total_distance_42_summary">浩瀚星海中，堅持壹種夢，只為觸摸到您微暖的手。累計運動距離達到42公里即可獲得該卡片.</string>
+    <string name="total_distance_100_summary">累計運動距離達到100公里，即可獲得該卡片.</string>
+    <string name="total_distance_500_summary">累計運動距離達到500公里，即可獲得該卡片.</string>
+    <string name="total_distance_1000_summary">累計運動距離達到1000公里，即可獲得該卡片.</string>
+    <string name="total_distance_10000_summary">累計運動距離達到10000公里，即可獲得該卡片.</string>
+
+    <string name="wechat">微信運動</string>
+    <string name="fragment_wechat_title">微信接入</string>
+    <string name="save_qrcode_success">保存成功</string>
+    <string name="get_serail_number_error">獲取二維碼失敗</string>
+
+    <string name="normal_mute_notifications">消息免打擾</string>
+    <string name="sufaceImage">個人背景頁</string>
+    <string name="gender">性别</string>
+    <string name="edit_and_view_personal_information">编辑并查看個人信息</string>
+    <string name="sport_info">运動信息</string>
+    <string name="medal">獎章</string>
+
+    <string name="guide_vp_title_1">初始</string>
+    <string name="guide_vp_title_2">邂逅</string>
+    <string name="guide_vp_title_3">相遇</string>
+    <string name="guide_vp_title_4">擁有</string>
+
+    <string name="guide_vp_text_1">在你的陽光裡，享受每一次晨跑</string>
+    <string name="guide_vp_text_2">一天的開始，源自於你給的自信</string>
+    <string name="guide_vp_text_3">最愉悅的體驗，在每一次攀登的途中</string>
+    <string name="guide_vp_text_4">日夜的等候，不如現在就相見</string>
+
+    <string name="sign_up">註冊</string>
+    <string name="hint_user">用戶名/註冊郵箱</string>
+
+    <string name="why_ask_info">為什麼要問這些問題</string>
+    <string name="sex">性別</string>
+
+    <string name="why_personal_info">您提供的個人信息，有助於我們計算您的基礎代謝率（BMR）。 BMR可以幫助我們統計您消耗的熱量。請提供準確的個人信息。</string>
+
+    <string name="length_limit">長度限制:1—20個字符</string>
+    <string name="inch_unit">英寸</string>
+    <string name="modify">修改</string>
+    <string name="take_photo_upload">拍照上傳</string>
+    <string name="select_image_from_gallery">从手机相册选取</string>
+    <string name="personal_achievement">個人成绩</string>
+
+    <string name="rank">rank %d</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="account_and_security">帳號与安全</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about_imco">关與CoBand</string>
+    <string name="no_friend_tips">您还没有收到任何消息\n也许你应该主動点</string>
+
+    <string name="nickname_short">暱稱</string>
+    <string name="input_nickname_tip">請輸入您的名字</string>
+
+    <string name="signup_error">用戶名或郵箱已被佔用</string>
+
+    <string name="save_ing">保存中</string>
+    <string name="send_ing">發送中</string>
+
+
+    <string name="first_step">初步始者</string>
+    <string name="walker">步行者</string>
+    <string name="wang_t">萬行者</string>
+    <string name="killer">超神絕殺</string>
+
+    <string name="asteroids">小行星</string>
+    <string name="beli">百里</string>
+    <string name="hubell">伍佰</string>
+    <string name="miley_q">千里行</string>
+    <string name="wanli">萬里行</string>
+
+    <string name="first_time_tip">初次使用</string>
+    <string name="more_than_10000_tip">10000步</string>
+    <string name="more_than_20000_tip">20000步</string>
+    <string name="more_than_30000_tip">30000步</string>
+
+    <string name="total_distance_10000_tip">10000公里</string>
+    <string name="total_distance_42_tip">42公里</string>
+    <string name="total_distance_100_tip">100公里</string>
+    <string name="total_distance_1000_tip">1000公里</string>
+    <string name="total_distance_500_tip">500公里</string>
+
+    <string name="version_num">版本號</string>
+
+    <string name="about_text_one">CoBand手环和CoBand手机应用程序结合, 可以每天记录你每天的运动和睡眠,同时也可以监测心率,及时了解心率状况.\n\n
+    警告: CoBand手环及其相关应用程序不能用于诊断,治疗和预防任何疾病以及身体状况.为防止过度运动造成的严重伤害和死亡,在改变你的运动目标和睡眠质量之前,请务必向专业医生咨询.</string>
+
+    <string name="check_new">檢查新版本</string>
+    <string name="Evaluation">求評價</string>
+    <string name="band_agreement">用戶協議</string>
+    <string name="version_text">版本</string>
+    <string name="reg_mail">註冊郵箱</string>
+    <string name="audio">[Audio]</string>
+    <string name="image">[Image]</string>
+    <string name="friends_count">%d 位好友</string>
+    <string name="whether_delete_friends">是否删除好友</string>
+
+    <string name="wechat_operation_tips">先保存二維碼，再打開微信，如下操作</string>
+    <string name="wechat_tips_00">在微信發現頁</string>
+    <string name="wechat_tips_01">打開"掃一掃"</string>
+    <string name="wechat_tips_10">點擊右上相冊</string>
+    <string name="wechat_tips_11">選取二維碼</string>
+    <string name="wechat_tips_20">成功關注</string>
+    <string name="wechat_tips_21">公眾號</string>
+    <string name="recommend">推薦</string>
+    <string name="request_friend_tips">对方请求添加您为好友</string>
+
+    <string name="username_or_password_error">用戶名或密碼錯誤</string>
+    <string name="he_profile">TA的主頁</string>
+    <string name="best_step_single_day">單日最高步數</string>
+    <string name="click_to_help">點擊獲取幫助</string>
+    <string name="highest_rate">Highest</string>
+    <string name="ave_rate">Average</string>
+    <string name="lowest_rate">Lowest</string>
+    <string name="data_statistics">Data statistics</string>
+    <string name="weight_difference">Weight difference</string>
+    <string name="weight_target">Weight Goal</string>
+    <string name="clear_cache_tips">確定要刪除應用緩存？ </string>
+        
+    <string name="help_title_1">手機不能連接手環怎麼辦？ </string>
+        
+    <string name="help_title_2">為什麼測試心率要等待15秒？ </string>
+        
+    <string name="help_title_3">測量心率時為什麼手環要戴的比較緊？ </string>
+        
+    <string name="help_title_4">關於睡眠監測</string>
+        
+    <string name="help_title_5">開啟了提醒功能為什麼沒有提醒？ </string>
+        
+    <string name="help_content_1">（1）檢查手環是否有電，且貼近手機，確認手環未被連接; \n（2）重新啟動手機藍牙設備，然後在進行連接； \n（3）退出CoBand app,然後重新打開app進行連接； \n（4）連接手環的時候，盡可能將手環靠近手機。避免周圍無線設備的干擾，影響手環的正常連接； \n（5）檢查附近是否有其他手機綁定過手環，如果手環被附近其他手機綁定過，可先將改手機藍牙關閉，或者解除綁定，在使用當前的手機進行綁定； \n（6）若以上方法都無法連接手環，請重啟手機在進行連接。 </string>
+        
+    <string name="help_content_2">測試心率，需要採集較長時間的信號，才能準確計算您的心率。 </string>
+        
+    <string name="help_content_3">手環採用光反射原理，通過光源穿透皮膚後，採集反射到傳感器的信號來計算您的心率，如果佩戴不緊，會有環境光進入傳感器，會影響測量精度。 </string>
+        
+    <string name="help_content_4">1、 白天不會監測睡眠 \n2、 睡眠監測起止時間為：下午18:00到第二天起床</string>
+        
+    <string name="help_content_5">確認手機與手環是連著的,連上後在手機設定裡打開對應的權限,允許APP訪問來電.短信.通訊錄,並保持APP在後台運行;如果手機安裝有安全軟件,要將APP添加為信任，打開消息提醒時請勾選APP的通知讀取權限</string>
+    <string name="advanced_settings">高級設定</string>
+    <string name="real_time_heart_rate_tips">持續量測心率</string>
+    <string name="device_syncing">正在同步數據，請等待</string>
+    <string name="get_device_address_failed">獲取設備地址失敗</string>
+    <string name="weight_inch_hint">體重(磅)</string>
+    <string name="save_qrcode_failed">保存二維碼失敗</string>
+    <string name="updateing">陞級中</string>
+    <string name="unbind_band_title">解綁手環</string>
+    <string name="allow">允許</string>
+    <string name="deny">拒絕</string>
+    <string name="permission_camera">請求相機許可權</string>
+    <string name="permission_access_location_rationale">請求定位許可權</string>
+    <string name="need_external_permission">沒有讀寫外部存儲的權限，無法生成分享的圖片</string>
+    <string name="no_location_permission">沒有定位許可權</string>
+    <string name="permission_write_external_storage">請求外部存儲許可權</string>
+    <string name="no_write_external_storage_permission">外部存儲許可權已被禁用</string>
+    <string name="not_permission">由於缺少許可權，該功能無法使用</string>
+    <string name="request_read_phone_state_permission">獲取電話狀態許可權</string>
+    <string name="call_remind_permission_deny">電話狀態許可權,通訊錄許可權已被禁用,該功能無法使用</string>
+    <string name="camera_permission_deny">相機許可權被禁用，該功能無法使用</string>
+    <string name="request_camera_storage_permission">請求相機和外部存儲許可權</string>
+    <string name="request_record_permission">請求錄音許可權</string>
+    <string name="request_write_settings_permission">獲取修改設定許可權</string>
+    <string name="write_settings_permission_denied">修改設定許可權已被禁用，該功能無法使用</string>
+    <string name="read_phone_state_permission_denied">讀取電話狀態許可權被禁用</string>
+    <string name="modify_device_name_failed">修改手環名稱失敗</string>
+    <string name="low_battery_to_upgrade">電量多於40%以上方可更新固件</string>
+    <string name="battery_too_low">電量過低</string>
+    <string name="request_extend_storage_permission">固件需要寫入到手機存儲當中</string>
+    <string name="extend_storage_permission_denied">外部存儲許可權已被禁用</string>
+    <string name="device_bind_already">該手環已被其他設備綁定</string>
+    <string name="join_beta_version">加入內測</string>
+    <string name="join_beta_title">成為內測用戶</string>
+    <string name="join_beta_message">當您申請成為體驗用戶後，可以檢測到Beta版固件更新，提前體驗新的特性。
+但是，Beta版本可能會影響使用穩定性。您可以隨時選擇退出體驗用戶，並重新恢復為正式固件版本。</string>
+    <string name="out_beta">退出內測</string>
+    <string name="join_beta_success">加入內測用戶成功</string>
+    <string name="out_beta_success">退出內測用戶成功</string>
+    <string name="out_beta_failed">退出內測用戶失敗，請檢查你的網絡</string>
+    <string name="join_beta_failed">加入內測用戶失敗，請檢查你的網絡</string>
+    <string name="obtains_battery_failed">獲取電量失敗</string>
+
+    <string name="open_list">展開</string>
+    <string name="drop_list">收起</string>
+    <string name="firmware_version">固件版本:%1$s</string>
+    <string name="patch_version">&#160;&#160;Patch版本:%1$s</string>
+    <string name="invald_device">無效設備</string>
+
+    <string name="edit_data_short">編輯</string>
+
+    <string name="check_version_failed">獲取固件版本失敗</string>
+    <string name="switch_the_screen_orientation_failed">切換橫豎屏失敗</string>
+    <string name="obtain_firmware_version_failed">獲取固件版本失敗</string>
+    <string name="set_device_clock_success">設定鬧鐘成功</string>
+    <string name="set_device_clock_failed">設定鬧鐘失敗</string>
+
+    <string name="normal_high">正常高值血壓</string>
+    <string name="normal_high_text">正常高值</string>
+    <string name="normal_blood">血壓正常</string>
+    <string name="normal_blood_text">正常</string>
+    <string name="ideal">理想值</string>
+    <string name="light_blood">輕度高血壓</string>
+    <string name="moderate_blood">中度高血壓</string>
+    <string name="severe_blood">重度高血壓</string>
+    <string name="level_one">一級高血壓</string>
+    <string name="level_two">二級高血壓</string>
+    <string name="level_three">三級高血壓</string>
+    <string name="low_blood">低血壓</string>
+    <string name="blood_pressure">血壓</string>
+    <string name="now_start">現在開始</string>
+    <string name="now_start_text">測量血壓過程中請盡量保持安靜，放鬆身體,測量過程中不要說話，移動身體</string>
+    <string name="mmhg">mmHg</string>
+    <string name="bpm">bpm</string>
+    <string name="view_statistical">查看統計圖</string>
+    <string name="about_blood">關於血壓</string>
+    <string name="about_blood_text">血壓是指血管內的血液在單位面積上的側壓力，即壓強。習慣以毫米汞柱(mmhg)為單位。</string>
+    <string name="blood_level_set_title">血壓水平分類和定義</string>
+    <string name="category">分類</string>
+    <string name="shrink">收縮壓*</string>
+    <string name="diastole">舒張壓*</string>
+    <string name="pure">單純收縮期高壓</string>
+    <string name="no_blood_data">00/00</string>
+    <string name="pause">暫停</string>
+    <string name="beforedawn">凌晨</string>
+    <string name="morning">上午</string>
+    <string name="afternoon">下午</string>
+    <string name="night">晚上</string>
+    <string name="blood_warning">此應用程序僅用於健康和健身方面的目的,並不用於診斷疾病或者其他情況</string>
+    <string name="fota_service_not_init">OTA服務未啟動，你需要重啓App並重試</string>
+    <string name="no_sleep_data">暫無睡眠數據</string>
+    <string name="no_heart_rate_data">暫無心率數據</string>
+    <string name="no_weight_data">點擊此處手動記錄你的體重</string>
+    <string name="save_qrcode">保存二維碼</string>
+    <string name="bottom_menu_main">主頁</string>
+    <string name="bottom_menu_message">消息</string>
+    <string name="bottom_menu_device">設備</string>
+    <string name="bottom_menu_me">我的</string>
+    <string name="sync"> 同步</string>
+    <string name="module_manage">組件管理</string>
+    <string name="not_sync">未同步</string>
+    <string name="owl_text">貓頭鷹是魔法師的信使，代表著智慧、忠誠、勇敢，代表iMCO對未來的期待和對生活的熱愛，也是iMCO的幸運兒和吉祥物</string>
+    <string name="style">樣式</string>
+    <string name="week">周</string>
+    <string name="step_title">步數</string>
+    <string name="title_ave_calories">日均熱量</string>
+    <string name="title_ave_distance">日均里程</string>
+    <string name="good_morning">早上好</string>
+    <string name="pair">開始配對</string>
+    <string name="open_bluetooth">開啟藍牙</string>
+    <string name="open_bluetooth_tips">藍牙功能未開啟，請在設定中打開藍牙</string>
+    <string name="forward_settings">打開設定</string>
+    <string name="title_scan_device">蒐索設備</string>
+    <string name="signal">訊號值</string>
+    <string name="device_reset">恢復出廠設定</string>
+    <string name="modify_success">修改手環名稱成功</string>
+    <string name="device_version_update">設備版本更新</string>
+    <string name="device_update_tips">請勿讓手環遠離手機</string>
+    <string name="checking_version">檢查中…</string>
+    <string name="check_version">檢查更新</string>
+    <string name="good_afternoon">下午好</string>
+    <string name="good_night">晚上好</string>
+    <string name="no_new_version">沒有新版本</string>
+    <string name="found_new_version">發現新版本</string>
+    <string name="upgrade_firmware">陞級</string>
+    <string name="device_firmware_update_successful">設備版本更新成功</string>
+    <string name="download_firmware_fail">下載固件失敗</string>
+    <string name="upgrade_fail">更新固件失敗</string>
+    <string name="load_app_fail">獲取應用失敗</string>
+    <string name="message_remind_tips">請保持藍牙開啟，手機需要一直連接手環</string>
+    <string name="another_device_connecting">正在連接另一個設備</string>
+    <string name="device_settings_title_24_time_style">使用24小時格式</string>
+    <string name="device_settings_title_heart_rate">心率監測</string>
+    <string name="device_settings_title_do_not_disturb">勿擾模式</string>
+    <string name="device_settings_title_screen_horizontal_vertical">橫豎屏切換</string>
+    <string name="record">記錄</string>
+    <string name="weight_hint">體重（公斤）</string>
+    <string name="tips_save_weight">輸入的體重將同步到您的個人資料中</string>
+    <string name="title_record_weight">體重錄入</string>
+    <string name="save_weight_success">錄入體重成功</string>
+    <string name="title_no_device">未發現設備</string>
+    <string name="title_no_device_tips">未發現設備，請在重啓手機藍牙之後重新嘗試</string>
+    <string name="title_get_device">未搜索到設備</string>
+    <string name="title_get_device_tips">請確保手機與設備保持在一定範圍內</string>
+    <string name="save_success">保存成功</string>
+    <string name="join_beta">加入內測</string>
+    <string name="register">Register</string>
+    <string name="hint_confirm_pwd">重新输入密码</string>
+    <string name="send_verification_code">send verification code</string>
+    <string name="enter_verification_code">enter verification code</string>
+    <string name="phone_empty">The phone number can\'t be empty</string>
+    <string name="verification_code_empty">verification code can\'t be empty</string>
+    <string name="pwd_empty">The password can\'t be empty</string>
+    <string name="confirm_pwd_empty">Re-enter your password please</string>
+    <string name="pwd_inconsistent">The password inconsistent</string>
+    <string name="email_empty">The email can\'t be empty</string>
+    <string name="resend">Resend</string>
+    <string name="remaining">Remaining</string>
+    <string name="request_verify_code_failed">Request verify code failed</string>
+    <string name="register_failed">Register failed</string>
+    <string name="email_has_been_used">The email has been used</string>
+    <string name="phone_has_been_used">The phone has been used</string>
+    <string name="wechat_not_install">Wechat app didn\'t install</string>
+    <string name="unit_system">Unit</string>
+    <string name="british">British</string>
+    <string name="anonymous_log_in">Anonymous log in</string>
+    <string name="quick_log_in">quick_log_in</string>
+    <string name="user_no_found">User not found</string>
+    <string name="update_target_failed">Update target failed</string>
+    <string name="nickname_empty">Nickname can\'t be empty</string>
+    <string name="update_nickname_failed">Update nickname failed</string>
+    <string name="update_gender_failed">Update gender failed</string>
+    <string name="update_height_failed">Update height failed</string>
+    <string name="update_weight_failed">Update weight failed</string>
+    <string name="update_birthday_failed">Update birthday failed</string>
+    <string name="upload_avatar_failed">Upload avatar failed</string>
+    <string name="upload_background_failed">Upload background failed</string>
+    <string name="update_unit_system_failed">Update unit system failed</string>
+    <string name="pwd_too_short">Password too short</string>
+    <string name="pwd_too_long">Password too long</string>
+    <string name="enter_phone">enter phone</string>
+    <string name="phone_pattern_error">phone pattern error</string>
+    <string name="email_reset_pwd">Found password by email</string>
+    <string name="phone_reset_pwd">Find password by phone</string>
+    <string name="send_verify_code_hint">Please enter  phone which use for register, we will send the verify code to the phone</string>
+    <string name="reset_pwd_success">Reset password success</string>
+    <string name="reset_pwd_failed">Reset password failed</string>
+    <string name="reset_pwd">Reset password</string>
+    <string name="verify_code_already_send">Verify code already send</string>
+    <string name="not_support_feature_yet">The feature not support yet</string>
+    <string name="account_or_pwd_error">Account or password error</string>
+    <string name="email_not_verify">The email did\'t verify, verify the email before reset password please</string>
+    <string name="email_already_send">The email already send</string>
+    <string name="update_target_success">Update goal success</string>
+
+</resources>

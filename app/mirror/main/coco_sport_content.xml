@@ -1,0 +1,20 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127931 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/coco_sport_content">
+        <!-- TextView Examples:
+        <connect_state text="@string/string_resource" />
+        <connect_state text="Text literal" textSize="14sp" /> -->
+        <connect_state />
+        <steps />
+        <completion_rate />
+        <distance />
+        <calories />
+        <sport_quality />
+        <content_rssi />
+    </_content>
+</screen>

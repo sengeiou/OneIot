@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lcim_chatkit_name">LeanCloudChatKit</string>
+
+    <string name="lcim_chat_bottom_record_layout_pressToRecord">Держите запись</string>
+    <string name="lcim_chat_sent">посланный</string>
+    <string name="lcim_chat_cancelRecord">Отменить запись</string>
+    <string name="lcim_unspport_message_type">Этот тип сообщения не поддерживается</string>
+    <string name="lcim_message_is_null">Сообщение не может быть пустым</string>
+    <string name="lcim_chat_bottom_picture">фото</string>
+    <string name="lcim_chat_bottom_camera">стрельба</string>
+    <string name="lcim_chat_bottom_location">расположение</string>
+    <string name="lcim_chat_record_button_slideUpToCancel">Пальцы скольжения, отменить отправку</string>
+    <string name="lcim_chat_record_button_releaseToCancel">Отпустите палец для отмены записи</string>
+    <string name="lcim_chat_activity_select_picture">Выберите изображение</string>
+    <string name="lcim_chat_record_button_pleaseSayMore">Точка сказать～</string>
+    <string name="lcim_load_more_footer_hint_normal">подробнее</string>
+
+    <string name="lcim_message_shorthand_image">[Изображение]</string>
+    <string name="lcim_message_shorthand_location">[Расположение]</string>
+    <string name="lcim_message_shorthand_audio">[Голос]</string>
+    <string name="lcim_message_shorthand_unknown">[Unknown]</string>
+    <string name="yesterday">вчера</string>
+    <string name="delete_this_chat">Удалить этот чат</string>
+</resources>

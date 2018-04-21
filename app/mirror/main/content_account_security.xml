@@ -1,0 +1,20 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127905 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/content_account_security">
+        <!-- TextView Examples:
+        <text_phone_bond_state text="@string/string_resource" />
+        <text_phone_bond_state text="Text literal" textSize="14sp" /> -->
+        <text_phone_bond_state />
+        <!-- ImageView Examples:
+        <phone_bond_arrow src="@drawable/image_resource" />
+        <phone_bond_arrow src="relative_path/image.jpg" /> -->
+        <phone_bond_arrow />
+        <arrow />
+        <text_register_email />
+    </_content>
+</screen>

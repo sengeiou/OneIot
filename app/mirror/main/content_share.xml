@@ -1,0 +1,21 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127942 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/content_share">
+        <!-- TextView Examples:
+        <share_title_tv text="@string/string_resource" />
+        <share_title_tv text="Text literal" textSize="14sp" /> -->
+        <share_title_tv />
+        <tv_steps_show />
+        <share_date_tv />
+        <calories_strings />
+        <tv_calories />
+        <distance_string />
+        <tv_distance />
+        <encourage_text />
+    </_content>
+</screen>

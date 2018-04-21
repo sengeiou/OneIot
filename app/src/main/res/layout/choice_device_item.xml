@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e0e0e0"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="0.3dp"
+            android:background="@drawable/click_ripple_bg">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/click_ripple_bg">
+                <ImageView
+                    android:id="@+id/choice_device_iv"
+                    android:layout_width="@dimen/registerLeftWidth"
+                    android:layout_height="@dimen/registerLeftWidth"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/imco_select_device_imcoband_black"
+                    android:padding="10dp"
+                    android:background="@drawable/gray_circle_bkg"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/choice_deivce_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CoBand DBL"
+                    android:layout_marginLeft="50dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/color_242424"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

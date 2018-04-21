@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127910 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/content_me">
+        <!-- TextView Examples:
+        <text_step_achievement text="@string/string_resource" />
+        <text_step_achievement text="Text literal" textSize="14sp" /> -->
+        <text_step_achievement />
+        <text_dis_achievement />
+        <!-- ImageView Examples:
+        <image_achievement src="@drawable/image_resource" />
+        <image_achievement src="relative_path/image.jpg" /> -->
+        <image_achievement />
+    </_content>
+</screen>

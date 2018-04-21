@@ -1,0 +1,29 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127937 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/content_data_center">
+        <!-- ImageView Examples:
+        <imageview src="@drawable/image_resource" />
+        <imageview src="relative_path/image.jpg" /> -->
+        <imageview />
+        <!-- TextView Examples:
+        <start_date text="@string/string_resource" />
+        <start_date text="Text literal" textSize="14sp" /> -->
+        <start_date />
+        <exercise_dates />
+        <total_dates />
+        <pass_dates_strings />
+        <pass_dates />
+        <walk_string />
+        <total_walks />
+        <total_walks_string />
+        <total_miles />
+        <total_calories_string />
+        <total_calories />
+        <happy_string />
+    </_content>
+</screen>

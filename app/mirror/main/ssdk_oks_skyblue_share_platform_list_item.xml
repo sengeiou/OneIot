@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127919 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/ssdk_oks_skyblue_share_platform_list_item">
+        <!-- ImageView Examples:
+        <logoImageView src="@drawable/image_resource" />
+        <logoImageView src="relative_path/image.jpg" /> -->
+        <logoImageView />
+        <!-- TextView Examples:
+        <nameTextView text="@string/string_resource" />
+        <nameTextView text="Text literal" textSize="14sp" /> -->
+        <nameTextView />
+        <checkedImageView />
+    </_content>
+</screen>

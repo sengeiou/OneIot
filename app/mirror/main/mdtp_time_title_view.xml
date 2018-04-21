@@ -1,0 +1,14 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127957 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/mdtp_time_title_view">
+        <!-- TextView Examples:
+        <time_picker_header text="@string/string_resource" />
+        <time_picker_header text="Text literal" textSize="14sp" /> -->
+        <time_picker_header />
+    </_content>
+</screen>

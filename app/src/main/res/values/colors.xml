@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="moon_yellow">#FFCE34</color>
+    <color name="black">#101010</color>
+    <color name="gray">#B6B6B6</color>
+    <color name="bkg_white">#F0F0F0</color>
+    <color name="gray_light">#969696</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <!-- Android standard ICS color -->
+    <!-- Android standard ICS color -->
+    <color name="transparent">#00000000</color>
+    <!-- Android standard ICS color -->
+    <color name="guide_point_normal">#F2F2F2</color>
+    <!-- coco band -->
+    <color name="firebrick">#FA645A</color>
+    <color name="medium_purple">#8c85fb</color>
+    <color name="bg_purple">#6846f8</color>
+    <color name="black_transparent">#c8000000</color>
+    <color name="camera_control_bg">#88000000</color>
+    <color name="sleep_light">#8c85fb</color>
+    <color name="white_transparent">#c8ffffff</color>
+    <color name="azure">#5896F0</color>
+    <color name="theme_red">#FA645A</color>
+    <color name="theme_blue">#1c96f0</color>
+    <color name="card_line">#E4E4E4</color>
+    <color name="card_title">#C8C8C8</color>
+    <color name="card_message">#646464</color>
+    <color name="weight_green">#14b478</color>
+
+    <color name="chat_base_color_text_black">#3e3e39</color>
+    <color name="lcim_divider_line_color">#afafaf</color>
+    <color name="blue">#1C96FF</color>
+    <color name="switch_blue">#1e78ff</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="md_divider_gray">#F2F3F4</color>
+
+    <color name="save_qrcode_btn_bkg_color">#1AAD19</color>
+
+    <color name="wechat_tips_color">#242424</color>
+    <color name="wechat_operation_tis">#C8C8C8</color>
+
+    <color name="dividing_line">#e0e0e0</color>
+    <color name="tips">#c8c8c8</color>
+    <color name="username">#323232</color>
+    <color name="title">#242424</color>
+
+    <color name="color_242424">#242424</color>
+    <color name="color_ffffff">#FFFFFF</color>
+    <color name="color_a0a0a0">#A0A0A0</color>
+    <color name="color_e4e4e4">#e4e4e4</color>
+    <color name="color_e0e0e0">#E0E0E0</color>
+    <color name="color_5078c8">#5078C8</color>
+    <color name="color_ff6464">#FF6464</color>
+    <color name="color_ffb400">#FFB400</color>
+    <color name="color_00b2bd">#00B2BD</color>
+    <color name="color_08A7B1">#08A7B1</color>
+    <color name="color_4878C4">#4878C4</color>
+    <color name="color_FFB435">#FFB435</color>
+    <color name="color_F0F0F0">#F0F0F0</color>
+    <color name="color_f8f8f8">#F8F8F8</color>
+    <color name="color_1E78FF">#1E78FF</color>
+    <color name="color_c8c8c8">#C8C8C8</color>
+    <color name="color_f0f0f0">#F0F0F0</color>
+    <color name="color_becdd6">#BECDD6</color>
+    <color name="color_323232">#323232</color>
+    <color name="color_fafafa">#F0F0F0</color>
+    <color name="color_ffefef">#FFEFEF</color>
+    <color name="color_fff7e5">#FFF7E5</color>
+    <color name="color_66c8e0">#66C8E0</color>
+
+    <color name="color_FFDEDEDE">#FFDEDEDE</color>
+    <color name="color_FFFFFFFF">#ffffffff</color>
+    <color name="color_4dffffff">#4dffffff</color>
+    <color name="color_c5c5c5">#c5c5c5</color>
+    <color name="color_6c19dc">#6C19DC</color>
+
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_00b4ff">#00b4ff</color>
+    <color name="color_3cdca5">#3cdca5</color>
+    <color name="color_ffc814">#ffc814</color>
+    <color name="color_f24e22">#f24e22</color>
+    <color name="color_9f9f9f">#9f9f9f</color>
+    <color name="color_51e0af">#51e0af</color>
+    <color name="guide_point_selected">#B4B4B4</color>
+
+
+</resources>

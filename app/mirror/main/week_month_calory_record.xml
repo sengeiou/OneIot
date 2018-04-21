@@ -1,0 +1,17 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127926 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/week_month_calory_record">
+        <!-- TextView Examples:
+        <text_calory_target text="@string/string_resource" />
+        <text_calory_target text="Text literal" textSize="14sp" /> -->
+        <text_calory_target />
+        <text_hint_day_ave />
+        <text_day_ave_calory />
+        <text_total_calory />
+    </_content>
+</screen>

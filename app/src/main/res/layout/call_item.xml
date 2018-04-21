@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coband.cocoband.widget.widget.EnabledRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_call"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        style="@style/device_settings_title"
+        android:id="@+id/text_call_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/call_remind"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        app:theme="@style/theme_band_firebrick"/>
+
+
+</com.coband.cocoband.widget.widget.EnabledRelativeLayout>

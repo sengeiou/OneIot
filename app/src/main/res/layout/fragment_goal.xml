@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:actionBarSize">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="40dp"
+        android:layout_height="90dp"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/appbar"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_home_step"
+        />
+
+    <TextView
+        android:id="@+id/tv_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_below="@id/iv_icon"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/color_00b2bd"
+        android:padding="10dp"
+        android:text="6500步"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_goal">
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/acs_seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="10.5dp"
+            android:indeterminateOnly="false"
+            android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+            android:progressDrawable="@drawable/seek_bar_bg"
+            android:minHeight="10.5dp"
+            android:thumb="@drawable/seek_bar_thumb"
+            android:thumbOffset="12.0dp"
+            />
+
+        <EditText
+            android:id="@+id/et_goals"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="65"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:textColor="@color/color_ffb400"
+            android:visibility="gone"
+            android:maxLength="5"
+            android:background="@drawable/editview_bg_weight"/>
+    </FrameLayout>
+
+    <!--android:thumb="@drawable/seek_bar_thumb"-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_above="@+id/bt_save"
+        android:textColor="@color/color_a0a0a0"
+        android:text="@string/band_target_settings_tips"/>
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg_goals_step"
+        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

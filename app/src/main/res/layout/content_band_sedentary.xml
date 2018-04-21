@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                              xmlns:tools="http://schemas.android.com/tools"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              android:orientation="vertical"
+                                              android:paddingBottom="16dp"
+                                              android:paddingLeft="16dp"
+                                              android:paddingRight="16dp"
+                                              android:paddingTop="16dp"
+                                              app:divider="@drawable/divider"
+                                              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                                              app:showDividers="middle|end">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/text_sedentary_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jiuzuo_remind"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_medium_less"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_sedentary_title"
+            android:text="@string/keep_connected"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_sedentary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:theme="@style/theme_band_firebrick"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_time_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/text_remind_time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remind_time"
+            android:textColor="@color/title_text_color"
+            android:textSize="@dimen/text_medium_less"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_remind_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/title_text_color"
+            tools:text="120分钟"/>
+
+
+    </FrameLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

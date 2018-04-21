@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:clickable="true"
+                tools:context="com.coband.cocoband.main.BandActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:elevation="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_surface"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/user_info_gradient_bg"/>
+            <!--android:fitsSystemWindows="true"-->
+            <TextView
+                android:id="@+id/tv_love"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/tv_love_bg"
+                android:drawableLeft="@drawable/ic_favorite_white_18dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="10000"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_avat"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/profile_men"
+        app:civ_border_color="@color/color_F4F4F4"
+        app:civ_border_overlay="true"
+        app:civ_border_width="3dp"
+        app:civ_fill_color="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/civ_avat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:maxLength="18"
+        android:maxLines="2"
+        android:text="USERNAME"
+        android:textColor="@color/color_242424"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:id="@+id/fl_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/bt_edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:background="@drawable/btn_edit_bkg"
+            android:elevation="0dp"
+            android:text="@string/edit_data_short"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/iv_friend"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:background="@drawable/btn_edit_gray_bkg"
+            android:elevation="0dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_profile_following_gray"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/iv_add_friend"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="34dp"
+            android:background="@drawable/btn_edit_bkg"
+            android:elevation="0dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_add_black_24dp"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/fl_bt"
+        android:layout_marginTop="30dp"
+        android:background="@color/color_e4e4e4"/>
+
+    <ScrollView
+        android:id="@+id/svBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/v">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/rl_sport_info"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/v"
+                android:background="@drawable/click_ripple_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:drawableLeft="@drawable/ic_profile_achievements"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/sport_info"
+                    android:textColor="@color/title"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/tv_day_best_steps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_marginTop="18dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/best_single_day"
+                    android:textColor="@color/tips"/>
+
+
+                <ImageView
+                    android:id="@+id/iv_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_medal"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/rl_sport_info"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/click_ripple_bg"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/ic_profile_medal"
+                    android:drawablePadding="5dp"
+                    android:maxEms="13"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/medal"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/text_medium_less"/>
+
+                <ImageView
+                    android:id="@+id/iv_arrow_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+                <HorizontalScrollView
+                    android:id="@+id/medal_hsv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tv_title2"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_gallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

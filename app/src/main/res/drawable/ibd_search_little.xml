@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:viewportWidth="90"
+    android:viewportHeight="90" android:width="10dp" android:height="10dp">
+    <path android:name="ibd_news_friends_search" android:fillColor="#C8C8C8"
+        android:pathData="M69.9,58.407A38.171,38.171,0,1,0,58.4,69.917L72.758,84.283c0.124,0.124.257,0.235,0.387,0.349L78.51,90l5.346-5.347,0.778-.778L90,78.508Zm-31.929,6.7A27.13,27.13,0,1,1,65.1,37.982,27.127,27.127,0,0,1,37.974,65.112Z" />
+</vector>

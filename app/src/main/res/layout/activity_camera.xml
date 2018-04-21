@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <!-- 显示预览图形 -->
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <RelativeLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:id="@+id/panel_take_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/camera_control_bg"
+            android:gravity="center_vertical"
+            android:padding="2dp">
+
+
+            <Button
+                android:id="@+id/takepicture"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btn_take_photo" />
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/cancel"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:padding="5dp"
+                android:background="@drawable/ibd_camera_photos" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/photo_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/panel_take_photo"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:orientation="horizontal" />
+
+
+        <RelativeLayout
+            android:id="@+id/camera_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:background="#00000000">
+
+            <ImageView
+                android:id="@+id/flashBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/ibd_camera_flashoff" />
+
+            <ImageView
+                android:id="@+id/change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/ibd_camera_cutaways" />
+
+        </RelativeLayout>
+
+        <!--<com.customview.CameraGrid-->
+        <!--android:id="@+id/masking"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@id/photo_area"-->
+        <!--android:layout_alignParentTop="true" />-->
+
+        <View
+            android:id="@+id/focus_index"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@id/photo_area"
+            android:background="@drawable/cam_focus"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/progress_camera_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout="@layout/progress"
+        />
+
+    <RelativeLayout
+        android:id="@+id/shake_tips_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_transparent"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/shake_tips_image"
+            android:text="@string/shake_camera_tip"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+        <ImageView
+            android:id="@+id/shake_tips_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ibd_camera_handimcoband"/>
+    </RelativeLayout>
+
+</FrameLayout>

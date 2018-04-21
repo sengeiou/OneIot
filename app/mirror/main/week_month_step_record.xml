@@ -1,0 +1,20 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127924 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/week_month_step_record">
+        <!-- TextView Examples:
+        <text_step_target text="@string/string_resource" />
+        <text_step_target text="Text literal" textSize="14sp" /> -->
+        <text_step_target />
+        <text_hint_day_ave />
+        <text_hint_day_highest />
+        <text_hint_day_totally />
+        <text_day_ave_step />
+        <text_day_highest_step />
+        <text_day_total_step />
+    </_content>
+</screen>

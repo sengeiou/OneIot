@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127946 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/item_jiuzuo">
+        <!-- ImageView Examples:
+        <sedentary_icon src="@drawable/image_resource" />
+        <sedentary_icon src="relative_path/image.jpg" /> -->
+        <sedentary_icon />
+        <!-- TextView Examples:
+        <text_jiuzuo_title text="@string/string_resource" />
+        <text_jiuzuo_title text="Text literal" textSize="14sp" /> -->
+        <text_jiuzuo_title />
+        <text_jiuzuo_status />
+    </_content>
+</screen>

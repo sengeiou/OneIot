@@ -1,0 +1,18 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127943 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/remote_device_item">
+        <!-- TextView Examples:
+        <text_remote_device text="@string/string_resource" />
+        <text_remote_device text="Text literal" textSize="14sp" /> -->
+        <text_remote_device />
+        <!-- ImageView Examples:
+        <image_choose src="@drawable/image_resource" />
+        <image_choose src="relative_path/image.jpg" /> -->
+        <image_choose />
+    </_content>
+</screen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@android:color/darker_gray">
+    <item>
+        <selector >
+            <item android:drawable="@drawable/ibd_share_sleep_pic02_preview" android:state_checked="false"></item>
+            <item android:state_checked="true" >
+                <layer-list>
+                    <item android:drawable="@drawable/ibd_share_sleep_pic02_preview"/>
+                    <item android:drawable="@drawable/ib_share_thupicselect" />
+                </layer-list>
+            </item>
+        </selector>
+    </item>
+</ripple>

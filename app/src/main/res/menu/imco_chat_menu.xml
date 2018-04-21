@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/user_profile"
+        android:icon="@null"
+        android:title="@string/he_profile"></item>
+
+    <item
+        android:id="@+id/mute_notifications"
+        android:icon="@null"
+        android:checkable="true"
+        android:title="@string/normal_mute_notifications"></item>
+</menu>

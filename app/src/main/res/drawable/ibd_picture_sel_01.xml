@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ibd_share_camera_nor" android:state_checked="false"></item>
+    <item android:state_checked="true" >
+        <layer-list>
+            <item android:drawable="@drawable/ibd_share_camera_nor"/>
+            <item android:drawable="@drawable/ib_share_thupicselect" />
+        </layer-list>
+    </item>
+</selector>

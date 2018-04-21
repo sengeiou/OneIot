@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginTop="10dp">
+
+    <!--<com.airbnb.lottie.LottieAnimationView-->
+    <!--android:id="@+id/lottie_animation_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitXY"-->
+    <!--app:lottie_cacheStrategy="weak"-->
+    <!--app:lottie_imageAssetsFolder="images_day"-->
+    <!--app:lottie_loop="true"/>-->
+    <ImageView
+        android:id="@+id/lottie_animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_step_illustration_day"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_step"
+                style="@style/tv_home_step"
+                fontPath="fonts/Oswald-Regular.ttf"
+                android:text="0"
+                android:textSize="@dimen/font_24"/>
+
+            <TextView
+                style="@style/tv_home_step"
+                android:text="@string/step"
+                android:textSize="@dimen/font_10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_distance"
+                style="@style/tv_home_step"
+                fontPath="fonts/Oswald-Regular.ttf"
+                android:text="0"
+                android:textSize="@dimen/font_24"/>
+
+            <TextView
+                android:id="@+id/tv_distance_unit"
+                style="@style/tv_home_step"
+                android:text="@string/km"
+                android:textSize="@dimen/font_10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_calories"
+                style="@style/tv_home_step"
+                fontPath="fonts/Oswald-Regular.ttf"
+                android:text="0"
+                android:textSize="@dimen/font_24"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_calories_unit"
+                style="@style/tv_home_step"
+                android:text="@string/killo_calory"
+                android:textSize="@dimen/font_10"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lcim_chatkit_name">LeanCloudChatKit</string>
+
+    <string name="lcim_chat_bottom_record_layout_pressToRecord">按住錄音</string>
+    <string name="lcim_chat_sent">已發送</string>
+    <string name="lcim_chat_cancelRecord">取消錄音</string>
+    <string name="lcim_unspport_message_type">暫不支持此消息類型</string>
+    <string name="lcim_message_is_null">消息不能為空</string>
+    <string name="lcim_chat_bottom_picture">照片</string>
+    <string name="lcim_chat_bottom_camera">拍攝</string>
+    <string name="lcim_chat_bottom_location">位置</string>
+    <string name="lcim_chat_record_button_slideUpToCancel">手指上滑，取消發送</string>
+    <string name="lcim_chat_record_button_releaseToCancel">鬆開手指，取消錄音</string>
+    <string name="lcim_chat_activity_select_picture">選擇圖片</string>
+    <string name="lcim_chat_record_button_pleaseSayMore">多說點吧～</string>
+    <string name="lcim_load_more_footer_hint_normal">查看更多</string>
+
+    <string name="lcim_message_shorthand_image">[圖片]</string>
+    <string name="lcim_message_shorthand_location">[位置]</string>
+    <string name="lcim_message_shorthand_audio">[語音]</string>
+    <string name="lcim_message_shorthand_unknown">[未知]</string>
+
+    <string name="yesterday">昨天</string>
+    <string name="delete_this_chat">刪除此聊天</string>
+</resources>

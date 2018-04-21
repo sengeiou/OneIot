@@ -1,0 +1,17 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127914 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/social_item">
+        <!-- TextView Examples:
+        <ibd_tv_leader_num text="@string/string_resource" />
+        <ibd_tv_leader_num text="Text literal" textSize="14sp" /> -->
+        <ibd_tv_leader_num />
+        <ibd_tv_nickname />
+        <ibd_tv_steps />
+        <ibd_tv_likes />
+    </_content>
+</screen>

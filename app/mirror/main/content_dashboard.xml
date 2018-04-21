@@ -1,0 +1,51 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127908 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/content_dashboard">
+        <date_recycler layoutManager="linear:vertical">
+        <!-- Examples of valid layoutManager values: "linear", "staggeredGrid:5:horizontal", "staggeredGrid:4" -->
+            <items layout="@android:layout/simple_list_item_1" >
+                <_item>
+                    <text1>Dalmatian</text1>
+                </_item>
+                <_item>
+                    <text1>Great Dane</text1>
+                </_item>
+                <_item>
+                    <text1>Shi Tzu</text1>
+                </_item>
+                <_item>
+                    <text1>Corgi</text1>
+                </_item>
+                <_item>
+                    <text1>Labrador</text1>
+                </_item>
+                <_item>
+                    <text1>Doberman</text1>
+                </_item>
+                <_item>
+                    <text1>Chihuahua</text1>
+                </_item>
+            </items>
+                </date_recycler>
+        <!-- TextView Examples:
+        <text_today_calory text="@string/string_resource" />
+        <text_today_calory text="Text literal" textSize="14sp" /> -->
+        <text_today_calory />
+        <text_today_distance />
+        <!-- ImageView Examples:
+        <image_target_completion_rate src="@drawable/image_resource" />
+        <image_target_completion_rate src="relative_path/image.jpg" /> -->
+        <image_target_completion_rate />
+        <text_step_number />
+        <text_target_completion_rate />
+        <text_time_hour />
+        <text_time_minute />
+        <text_time_seconds />
+        <text_distance_tips />
+    </_content>
+</screen>

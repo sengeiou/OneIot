@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IMCOBandLib</string>
+    <string name="connect_disconnect">connect_disconnect</string>
+    <string name="cancel">cancel</string>
+    <string name="notify_battery_alarm_string">notify_battery_alarm_string</string>
+    <string name="notify_battery_alarm_ticker">notify_battery_alarm_ticker</string>
+    <string name="notify_battery_alarm_title">notify_battery_alarm_title</string>
+    <string name="progress_bar_timeout">progress_bar_timeout</string>
+    <string name="connect_band">connect_band</string>
+    <string name="bond_success">bond_success</string>
+    <string name="bond_failure">bond_failure</string>
+    <string name="connect_band_already_bond">connect_band_already_bond</string>
+    <string name="something_error">something_error</string>
+    <string name="syncing_data">syncing_data</string>
+    <string name="connect_with_device_name">connect_with_device_name</string>
+</resources>

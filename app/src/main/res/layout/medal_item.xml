@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <ImageView
+        android:id="@+id/medal_icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_profile_medal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/medal_icon"
+        android:layout_marginLeft="24dp">
+
+        <TextView
+            android:id="@+id/medal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="16sp"
+            android:textColor="@color/color_c8c8c8"/>
+
+        <TextView
+            android:id="@+id/medal_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tip"
+            android:textSize="12sp"
+            android:textColor="@color/color_c8c8c8"
+            android:layout_marginTop="7dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

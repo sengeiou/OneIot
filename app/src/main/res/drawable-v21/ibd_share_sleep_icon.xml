@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/darker_gray">
+    <item>
+        <selector>
+            <item
+                android:drawable="@drawable/ibd_share_iconsleep_nor"
+                android:state_checked="false"></item>
+            <item
+                android:drawable="@drawable/ibd_share_iconsleep_sel"
+                android:state_checked="true"></item>
+        </selector>
+    </item>
+</ripple>

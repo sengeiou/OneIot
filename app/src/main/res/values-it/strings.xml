@@ -1,0 +1,419 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">CoBand</string>
+    <string name="join_imco">aderire CoBand</string>
+    <string name="sign_in">Entra</string>
+    <string name="hint_username">nome utente</string>
+    <string name="hint_password">Password (almeno 6)</string>
+    <string name="hint_email">Email</string>
+    <string name="next">Avanti</string>
+    <string name="agreement">Clic su Avanti consenso presunto <a href="http://www.priodigit.com/a/guanyu/36.html?1516119758">CoBand的使用条款</a></string>
+    <string name="email_format_error_tips">E-mail errore di formato</string>
+    <string name="ok">si</string>
+    <string name="forgot_password">Hai dimenticato la password</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="height">altezza</string>
+    <string name="female">donna</string>
+    <string name="male">maschio</string>
+    <string name="birthday">compleanno</string>
+    <string name="weight">peso</string>
+    <string name="save">Salva</string>
+    <string name="nickname">Il tuo nickname</string>
+    <string name="month">mese</string>
+    <string name="day">giorno</string>
+    <string name="send_email">trasmettere</string>
+    <string name="send_email_tips">Un messaggio di reimpostazione della password verrà inviato al tuo indirizzo e-mail registrato, se non ricevuto il messaggio, controllare la \ "posta indesiderata \"</string>
+    <string name="hint_input_register_email">Inserisci il tuo indirizzo e-mail per legare</string>
+    <string name="unkonw_error">errore sconosciuto</string>
+    <string name="unkonw_error_tips">Errore, si prega di controllare la vostra rete</string>
+
+    <string name="leaderboard">classifica</string>
+    <string name="calory">calorie</string>
+    <string name="km">km</string>
+    <string name="step">passi</string>
+    <string name="today">oggi></string>
+
+    <string name="day_step_ave">passi Media</string>
+    <string name="total_step">step totale</string>
+    <string name="no_data">Dati non disponibili</string>
+    <string name="exit">Esci</string>
+    <string name="settings">Impostazione</string>
+    <string name="select_image">Seleziona Immagine</string>
+    <string name="take_photo">fotografia</string>
+    <string name="hour">ore</string>
+    <string name="minute">minuto</string>
+
+    <string name="share">Condividi</string>
+
+    <string name="best_single_day">Best day  %d passi</string>
+
+    <string name="not_support_ble">dispositivo non supporta Bluetooth4.0</string>
+    <string name="band_target">obiettivo</string>
+    <string name="heart_rate">frequenza cardiaca</string>
+    <string name="sleep">addormentato</string>
+    <string name="sport">movimento</string>
+    <string name="deep_sleep">sonno profondo</string>
+    <string name="band_target_settings_tips">Cambiamento, dalla piccola inizio dell\'operazione, solo per impostare un obiettivo di loro, in modo che uno stile di vita più attivo e sano!</string>
+    <string name="step_unit"> passo</string>
+    <string name="find_band">Trova braccialetto</string>
+    <string name="shake">Agitare fa foto</string>
+
+    <string name="sedentary_tips">Rileva il vostro tempo, senza piedi, braccialetto vibrerà</string>
+    <string name="band_alarm_off">Chiudi</string>
+    <string name="lose_warn">Intelligente anti perso</string>
+    <string name="screen_sleep_remind">Tempo di spegnimento schermo</string>
+    <string name="five_seconds">5 secondi</string>
+    <string name="search_band_tips">Assicurarsi che il telefono vicino al  braccialetto</string>
+    <string name="cancel">annullato</string>
+    <string name="search_retry">riprova</string>
+    <string name="date">data</string>
+    <string name="confirm">confermare</string>
+
+    <string name="modify_band_name">Modificare il nome braccialetto</string>
+    <string name="unbind_band">sciogliere</string>
+    <string name="measure">misura</string>
+    <string name="light_sleep">sonno leggero</string>
+    <string name="wake">sobrio</string>
+    <string name="walk">passo</string>
+    <string name="lack_sleep">insufficiente</string>
+    <string name="poor_sleep">divario</string>
+    <string name="good_sleep">ottimo</string>
+    <string name="sleep_quality">La qualità del sonno</string>
+    <string name="target_completion">obiettivo completato</string>
+    <string name="sport_distance">chilometraggio</string>
+    <string name="band_day_ave_step">Il numero medio giornaliero di pass</string>
+    <string name="yesterday">ieri</string>
+    <string name="killo_calory">kcal</string>
+
+    <string name="monday">lunedi</string>
+    <string name="tuesday">martedì </string>
+    <string name="wednesday">mercoledi</string>
+    <string name="thursday">giovedi</string>
+    <string name="friday">venerdì</string>
+    <string name="saturday">sabato</string>
+    <string name="sunday">domenica </string>
+    <string name="one_week">una settimana</string>
+
+    <string name="shake_camera_tip">Indossare  braccialetto, agitare delicatamente \ n automaticamente fare foto.</string>
+    <string name="camera_fail_tip">fare foto fallito, riprova！</string>
+    <string name="process_is_complete">Processo è completato!</string>
+    <string name="processing">lavorazione &#8230;</string>
+    <string name="one_day_sleep">Dormire tutto il giorno</string>
+    <string name="day_ave_sleep">addormentato al giorno</string>
+    <string name="times">volte</string>
+    <string name="average">media</string>
+    <string name="check_network">errore rete！</string>
+    <string name="last_heart_rate_testing">I risultati ultima misurazione</string>
+    <string name="measuring">sta misurando</string>
+    <string name="device_disconnected">Braccialetto non collegati</string>
+    <string name="reset_success">Ripristinare le impostazioni fabbrica successo</string>
+    <string name="exit_tips">OK per uscire?</string>
+    <string name="fragment_help_title">Uso Guida</string>
+    <string name="imco">CoBand</string>
+    <string name="band_agreement_privacy">Privacy Policy</string>
+    <string name="current_version">versione</string>
+    <string name="reset_title">sollecito</string>
+    <string name="reset_tips">Questa operazione cancellerà l\'applicazione mobile e bracciale contapassi e dati addormentato!Necessità di riconnettersi per ripristinare le impostazioni di fabbrica per attivare braccialetto.</string>
+    <string name="lose_warning_tips">Quando il bracciale lontano dal telefono squilla per avvisare</string>
+    <string name="keep_connected">Bracciale rimanere in contatto con telefono</string>
+    <string name="remind_time">tempo promemoria</string>
+    <string name="band_alarm">Bracciale Sveglia</string>
+    <string name="fifth_seconds">15 secondi</string>
+    <string name="ten_seconds">10 secondi</string>
+    <string name="screen_sleep_time">Tempo dello schermo</string>
+    <string name="update_image_tips"> Bracciale nuova versione firmware</string>
+    <string name="update_image_title">Aggiornamento del firmware Bracciale</string>
+    <string name="confire_is_network_available">Assicurarsi che la rete è disponibile</string>
+    <string name="please_connect_bracelet">Si prega di collegarsi bracciale</string>
+    <string name="open">on</string>
+    <string name="close">off</string>
+    <string name="seconds">secondi</string>
+    <string name="everyday">ogni giorno</string>
+    <string name="card_never_bond">Potrebbe essere davvero bisogno di un braccialetto,</string>
+    <string name="card_unbond">se tu gia ce braccialetto iMCO, Oh ricordare legante</string>
+    <string name="card_bad_sleep">Quando il sonno non è fino a lungo Oh, scarsa qualità del sonno, non importa quanto occupata, ma anche di pompaggio più tempo per dormire.</string>
+    <string name="card_normal_sleep">La qualità generale del vostro addormentato, rilassarsi e dormire bene.</string>
+    <string name="card_good_sleep">La qualità del sonno bene, oh, tenere.</string>
+    <string name="card_no_sport_goal">Nessun obiettivi andare a Impostazione</string>
+    <string name="card_no_sleep_goal">Dormire bene avere un lavoro spirituale e studio, per te è un obiettivo che addormentato</string>
+    <string name="card_goal_20000">Mi cade un Dio, in realtà superato l\'obiettivo</string>
+    <string name="card_goal_16000">completato mio obiettivo</string>
+    <string name="card_goal_8000">Congratulazioni, avete completato l\'obiettivo</string>
+    <string name="card_goal_4000">Grande, è stata completata l\'obiettivo</string>
+    <string name="card_goal_2000">Bene, io Quando avrete completato obiettivo</string>
+    <string name="modify_avatar">modificare immagine</string>
+    <string name="card_sleep_completed">Avete completato l\'obiettivo</string>
+    <string name="card_welcome">benvenuto iMCO</string>
+    <string name="card_leadboard_in_100">Congratulazioni, hai vinto %1$s posto</string>
+    <string name="card_sport_uncomplete_step">sei veramente bravo sì!\ninoltre quasi %1$s È possibile completare gli obiettivi.</string>
+    <string name="note_lost">sollecito anti-perso</string>
+    <string name="message_note_lost">tuo bracciale sta fuori zona sicurezza.</string>
+    <string name="inch">pollice</string>
+    <string name="metric_system">sistema metrico</string>
+    <string name="sync_error">Sincronizzare i dati non riesce, sincronizzare manualmente！</string>
+    <string name="bond_help_title_1">Controllare se vi è bracciale se carica,E vicino al telefono</string>
+    <string name="bond_help_title_2">Controllare se ci sono altre cellulare legante</string>
+    <string name="bond_help_title_3">Riavviare il Bluetooth</string>
+    <string name="bond_help_title_4">Riavviare cellulare</string>
+    <string name="bond_help_content_1">Se il bracciale no carico,Dopo completamente carica,quindi associare</string>
+    <string name="bond_help_content_2">Se il bracciale è tenuto troppo vicino ad altri telefoni,Il cellulare Bluetooth può essere spento o sciogliere,Quindi utilizzare il telefono associare</string>
+    <string name="bond_help_content_3">Bracciale e carico se  non si può cercare per il dispositivo, è possibile riavviare la ricerca Bluetooth di nuovo</string>
+    <string name="bond_help_content_4">Se non è possibile riavviare il dispositivo Bluetooth per cercare, provare a riavviare il telefono</string>
+    <string name="band_name_empty">Nome del braccialetto non può essere vuoto</string>
+    <string name="connect">Collegare</string>
+    <string name="connecting">Cercando &#8230;</string>
+    <string name="connect_failed">Connessione non riuscita</string>
+    <string name="sign_in_error">Accesso non riuscito</string>
+    <string name="network_error">rete non disponibile</string>
+    <string name="foot">piede</string>
+
+    <string name="frequent_access_server">Server non accede di frequente</string>
+
+
+    <string name="app_new_version">nuova versione</string>
+    <string name="download">Scarica</string>
+    <string name="connected">connesso</string>
+    <string name="disconnect">no connesso</string>
+    <string name="syncing">Cercando dei dati, si prega di attendere</string>
+
+    <string name="hour_short">ore</string>
+    <string name="minute_short">minuto</string>
+    <string name="share_to">Condividi...</string>
+    <string name="other">altro</string>
+    <string name="stop_measure">la misura di arresto</string>
+    <string name="delete">Elimina</string>
+
+    <string name="heart_rate_result">Risultati misurazione della frequenza cardiaca </string>
+    <string name="user_profile" >Dati personali</string>
+    <string name="bluetooth_service_disabled">Servizio Bluetooth non è disponibile, prova a riavviare il telefono o Bluetooth</string>
+    <string name="miles">Mile</string>
+    <string name="lb">lb</string>
+    <string name="loading">Caricamento in corso...</string>
+    <string name="friend">Amici</string>
+    <string name="contact_alreadyCreateAddRequest">Richiesta è stata inviata！</string>
+    <string name="chat_utils_hardLoading">Caricamento sforzi...</string>
+    <string name="add_friend">Aggiungi amico</string>
+    <string name="request_friend">richiesta di amicizia</string>
+    <string name="message_when_agree_request">Siamo stati buoni amici per chiacchierare con me</string>
+    <string name="lcim_chat_bottom_location">localizzare</string>
+    <string name="search_friends">Ricerca Username / email</string>
+    <string name="send_error">Impossibile inviare</string>
+    <string name="buy_tips"> andare al negozio per vedere iMCO</string>
+    <string name="select_device">Seleziona palmare</string>
+    <string name="device_shop">flagship store iMCO</string>
+    <string name="tilt_watch_light_screen">Inclinare alla luce sullo schermo</string>
+    <string name="light_screen_tips">Sollevare il polso per vedere le informazioni sul vostro braccialetto intelligente</string>
+    <string name="sedentary_remind">sedentario promemoria</string>
+    <string name="no_disturbing_tips">Dopo aver spento la modalità di interferenza, la chiamata in arrivo e il messaggio non sarà più sul ring, e la coppia si chiuderanno lo schermo e disattivare la funzione di vibrazione.</string>
+    <string name="highest_heart_rate_tips">sopra di questa frequenza cardiaca, il bracciale scuoterà il promemoria</string>
+    <string name="time_span">intervallo di tempo</string>
+    <string name="twenty_seconds">20 secondi</string>
+    <string name="twenty_five_seconds">25 secondi</string>
+    <string name="not_remind">non ricordare</string>
+    <string name="go_app_store">google play</string>
+
+    <string name="heart_rate_monitor">cardiofrequenzimetro</string>
+    <string name="no_disturbing">Modalità silenziosa</string>
+    <string name="start_time">tempo a fissare</string>
+    <string name="end_time">Fine del tempo</string>
+    <string name="time_open">Accendere regolarmente</string>
+    <string name="message_no_disturbing">Messaggio non ricordare</string>
+    <string name="vibration_no_disturbing">Assenza di vibrazioni</string>
+    <string name="screen_no_disturbing">fuori schermo</string>
+    <string name="real_time_heart_rate">battito cardiaco tempo reale</string>
+    <string name="heart_rate_remind">ricordo battito cardiaco</string>
+    <string name="highest_heart_rate">Alto battito cardiaco</string>
+    <string name="time_measure">Timing MISURE</string>
+    <string name="data_sync_complete">La sincronizzazione dei dati è completa</string>
+
+
+    <string name="jiuzuo_remind">Promemoria sedentario</string>
+    <string name="call_remind">Le chiamate per ricordare</string>
+    <string name="band_alarm_remind">allarme di banda</string>
+    <string name="message_remind">Promemoria App Messaggio</string>
+
+    <string name="bond_help">Binding braccialetto aiuto</string>
+
+
+    <string name="unit">Unità</string>
+
+    <string name="normal_mute_notifications">Messaggio Do Not Disturb</string>
+    <string name="gender">性别</string>
+    <string name="edit_and_view_personal_information">编辑并查看个人信息</string>
+    <string name="sport_info">运动信息</string>
+    <string name="medal">奖章</string>
+
+
+    <!--<string name="guide_vp_title_1">iniziale</string>-->
+    <!--<string name="guide_vp_title_2">incontri</string>-->
+    <!--<string name="guide_vp_title_3">soddisfare</string>-->
+    <!--<string name="guide_vp_title_4">avere</string>-->
+
+    <!--<string name="guide_vp_text_1">Nel vostro sole, godendo di ogni corsa mattutina</string>-->
+    <!--<string name="guide_vp_text_2">Per iniziare la giornata, si dà la fiducia viene da</string>-->
+    <!--<string name="guide_vp_text_3">L\'esperienza più piacevole in ogni modo di salire</string>-->
+    <!--<string name="guide_vp_text_4">In attesa giorno e notte, è meglio ora di incontrare</string>-->
+
+    <string name="sign_up">registrazione</string>
+    <string name="hint_user">Nome utente/raccomandata</string>
+
+    <string name="why_ask_info">Perché ti stai chiedendo a queste domande</string>
+
+    <string name="sex">genere</string>
+
+    <string name="why_personal_info">I dati personali da Lei forniti ci aiuta a calcolare il tuo metabolismo basale (BMR). BMR può aiutarci a contare le calorie bruciate. Si prega di fornire accurate informazioni personali.</string>
+
+    <string name="length_limit">Limite di lunghezza: 1—20 caratteri</string>
+
+    <string name="inch_unit">pollice</string>
+    <string name="modify">修改</string>
+    <string name="take_photo_upload">拍照上传</string>
+    <string name="select_image_from_gallery">从手机相册选取</string>
+    <string name="personal_achievement">个人成绩</string>
+
+    <string name="rank">rank %d</string>
+
+    <string name="wechat">Wechat</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="account_and_security">帐号与安全</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about_imco">关于CoBand</string>
+    <string name="no_friend_tips">您还没有收到任何消息\n也许你应该主动点</string>
+
+    <string name="nickname_short">soprannome</string>
+    <string name="input_nickname_tip">Inserisci il tuo nome</string>
+
+    <string name="signup_error">Nome Utente e-mail è già stato preso</string>
+
+    <string name="save_ing">conservazione</string>
+    <string name="send_ing">invio</string>
+
+    <string name="version_num">il numero di versione</string>
+    <string name="check_new">Verificare la nuova versione</string>
+    <string name="Evaluation">Cerco di valutazione</string>
+    <string name="band_agreement">accordo per gli utenti</string>
+    <string name="version_text">edizione</string>
+    <string name="reg_mail">La registrazione E - Mail</string>
+    <string name="audio">[Audio]</string>
+    <string name="image">[Image]</string>
+    <string name="friends_count">%d 位好友</string>
+    <string name="whether_delete_friends">是否删除好友</string>
+    <string name="recommend">推荐</string>
+    <string name="request_friend_tips">对方请求添加您为好友</string>
+
+    <string name="username_or_password_error">Nome utente o password non sono corretti</string>
+    <string name="he_profile">TA的主页</string>
+    <string name="best_step_single_day">单日最高步数</string>
+
+    <string name="save_success">salvato con successo</string>
+    <string name="click_to_help">点击获取帮助</string>
+    <string name="highest_rate">Highest</string>
+    <string name="ave_rate">Average</string>
+    <string name="lowest_rate">Lowest</string>
+    <string name="data_statistics">Data statistics</string>
+    <string name="weight_difference">Weight difference</string>
+    <string name="weight_target">Weight Goal</string>
+    <string name="clear_cache_tips">确定要删除应用缓存？</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="real_time_heart_rate_tips">Continuous measurement of heart rate</string>
+    <string name="device_syncing">The device syncing data, wait a moment</string>
+    <string name="get_device_address_failed">obtain device address failed</string>
+    <string name="weight_inch_hint">Weight(lb)</string>
+    <string name="save_qrcode_failed">Save qrcode failed</string>
+    <string name="updateing">Updating</string>
+    <string name="unbind_band_title">Unbind Band</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="permission_camera">Request camera permission</string>
+    <string name="permission_access_location_rationale">Request location permission</string>
+    <string name="need_external_permission">Need read and write external storage permission</string>
+    <string name="no_location_permission">No location permission</string>
+    <string name="permission_write_external_storage">Request write external storage permission</string>
+    <string name="no_write_external_storage_permission">No write external storage permission</string>
+    <string name="not_permission">Permission denied</string>
+    <string name="request_read_phone_state_permission">Request read phone state</string>
+    <string name="call_remind_permission_deny">Read phone state and read contacts permission deny</string>
+    <string name="camera_permission_deny">Camera permission deny</string>
+    <string name="request_camera_storage_permission">Request camera and write storage permission</string>
+    <string name="request_record_permission">Request record permission</string>
+    <string name="request_write_settings_permission">Request write settings permission</string>
+    <string name="write_settings_permission_denied">Write settings permission denied</string>
+    <string name="read_phone_state_permission_denied">Read phone state permission denied</string>
+    <string name="modify_device_name_failed">Modify device name failed</string>
+    <string name="low_battery_to_upgrade">电量多于40%以上方可升级固件</string>
+    <string name="battery_too_low">Battery too low</string>
+    <string name="request_extend_storage_permission">the firmware need to write to the external storage</string>
+    <string name="extend_storage_permission_denied">Request external storage permission denied</string>
+    <string name="device_bind_already">This bracelets bind already by another device</string>
+    <string name="join_beta_version">join beta version</string>
+    <string name="join_beta_title">成为内测用户</string>
+    <string name="join_beta_message">内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私内测用户隐私</string>
+    <string name="out_beta">Out beta</string>
+    <string name="join_beta_success"/>
+    <string name="out_beta_success">退出内测用户成功</string>
+    <string name="out_beta_failed">退出内测用户失败，请检查你的网络</string>
+    <string name="join_beta_failed">加入内测用户失败，请检查你的网络</string>
+    <string name="obtains_battery_failed">Obtains battery failed</string>
+
+    <string name="open_list">espansione</string>
+    <string name="drop_list">Metti via</string>
+    <string name="firmware_version">Firmware version:%1$s</string>
+    <string name="patch_version">&#160;&#160;Patch version:%1$s</string>
+    <string name="invald_device">Invalid device</string>
+    <string name="check_version_failed">Check new version failed</string>
+
+    <string name="edit_data_short">modifica</string>
+    <string name="switch_the_screen_orientation_failed">Switch the screen orientation failed</string>
+    <string name="obtain_firmware_version_failed">obtain firmware version failed</string>
+    <string name="set_device_clock_success">Set device clock successful</string>
+    <string name="set_device_clock_failed">Set device clock failed</string>
+    <string name="fota_service_not_init">OTA service not init, you need to relaunch the app and try again</string>
+    <string name="register">Register</string>
+    <string name="hint_confirm_pwd">重新输入密码</string>
+    <string name="send_verification_code">send verification code</string>
+    <string name="enter_verification_code">enter verification code</string>
+    <string name="phone_empty">The phone number can\'t be empty</string>
+    <string name="verification_code_empty">verification code can\'t be empty</string>
+    <string name="pwd_empty">The password can\'t be empty</string>
+    <string name="confirm_pwd_empty">Re-enter your password please</string>
+    <string name="pwd_inconsistent">The password inconsistent</string>
+    <string name="email_empty">The email can\'t be empty</string>
+    <string name="resend">Resend</string>
+    <string name="remaining">Remaining</string>
+    <string name="request_verify_code_failed">Request verify code failed</string>
+    <string name="register_failed">Register failed</string>
+    <string name="email_has_been_used">The email has been used</string>
+    <string name="phone_has_been_used">The phone has been used</string>
+    <string name="wechat_not_install">Wechat app didn\'t install</string>
+    <string name="unit_system">Unit</string>
+    <string name="british">British</string>
+    <string name="anonymous_log_in">Anonymous log in</string>
+    <string name="quick_log_in">quick_log_in</string>
+    <string name="user_no_found">User not found</string>
+    <string name="update_target_failed">Update target failed</string>
+    <string name="nickname_empty">Nickname can\'t be empty</string>
+    <string name="update_nickname_failed">Update nickname failed</string>
+    <string name="update_gender_failed">Update gender failed</string>
+    <string name="update_height_failed">Update height failed</string>
+    <string name="update_weight_failed">Update weight failed</string>
+    <string name="update_birthday_failed">Update birthday failed</string>
+    <string name="upload_avatar_failed">Upload avatar failed</string>
+    <string name="upload_background_failed">Upload background failed</string>
+    <string name="update_unit_system_failed">Update unit system failed</string>
+    <string name="pwd_too_short">Password too short</string>
+    <string name="pwd_too_long">Password too long</string>
+    <string name="enter_phone">enter phone</string>
+    <string name="phone_pattern_error">phone pattern error</string>
+    <string name="email_reset_pwd">Found password by email</string>
+    <string name="phone_reset_pwd">Find password by phone</string>
+    <string name="send_verify_code_hint">Please enter  phone which use for register, we will send the verify code to the phone</string>
+    <string name="reset_pwd_success">Reset password success</string>
+    <string name="reset_pwd_failed">Reset password failed</string>
+    <string name="reset_pwd">Reset password</string>
+    <string name="verify_code_already_send">Verify code already send</string>
+    <string name="not_support_feature_yet">The feature not support yet</string>
+    <string name="account_or_pwd_error">Account or password error</string>
+    <string name="email_not_verify">The email did\'t verify, verify the email before reset password please</string>
+    <string name="email_already_send">The email already send</string>
+    <string name="update_target_success">Update goal success</string>
+</resources>

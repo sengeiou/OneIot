@@ -1,0 +1,16 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127910 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/content_band_sedentary">
+        <!-- TextView Examples:
+        <text_sedentary_title text="@string/string_resource" />
+        <text_sedentary_title text="Text literal" textSize="14sp" /> -->
+        <text_sedentary_title />
+        <text_remind_time_title />
+        <text_remind_time />
+    </_content>
+</screen>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/scroll_band_connected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:divider="@drawable/divider"
+            app:showDividers="middle|end">
+
+            <include layout="@layout/devices_head_item"/>
+
+            <TextView
+                android:id="@+id/tv_find_band"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_more"
+                android:gravity="center_vertical"
+                android:paddingBottom="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="20dp"
+                android:text="@string/find_band"/>
+
+
+            <TextView
+                android:id="@+id/tv_take_pic"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_more"
+                android:paddingBottom="20dp"
+                android:paddingRight="16dp"
+                android:paddingTop="20dp"
+                android:text="@string/shake"/>
+
+
+            <include layout="@layout/call_item"/>
+
+
+            <include layout="@layout/item_jiuzuo"/>
+
+
+            <TextView
+                android:id="@+id/tv_message_remind"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_more"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/message_remind"/>
+
+
+            <include layout="@layout/band_alarm"/>
+
+            <include layout="@layout/time_style_item"/>
+
+            <include layout="@layout/screen_sleep_item"/>
+
+            <include
+                layout="@layout/lose_warn_item"
+                android:visibility="gone"/>
+
+            <include layout="@layout/disturb_item"/>
+
+            <TextView
+                android:id="@+id/tv_heart_rate_settings"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_more"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/device_settings_title_heart_rate"/>
+
+
+            <include layout="@layout/screen_light_item"/>
+
+            <include layout="@layout/screen_orientation_item"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/other"
+            android:textColor="@color/color_c8c8c8"
+            android:textSize="@dimen/font_12"/>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:divider="@drawable/divider"
+            app:showDividers="middle">
+
+
+            <include layout="@layout/modify_device_name_item"/>
+
+
+            <TextView
+                android:id="@+id/tv_update_device"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_more"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/update_image_title"/>
+
+
+            <TextView
+                android:id="@+id/tv_device_reset"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_more"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/device_reset"/>
+
+
+            <TextView
+                android:id="@+id/tv_unbond_device"
+                style="@style/device_settings_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="40dp"
+                android:paddingRight="16dp"
+                android:paddingTop="40dp"
+                android:text="@string/unbind_band"/>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </LinearLayout>
+
+
+</ScrollView>

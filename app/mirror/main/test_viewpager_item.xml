@@ -1,0 +1,48 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127944 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/test_viewpager_item">
+        <!-- TextView Examples:
+        <hour_data text="@string/string_resource" />
+        <hour_data text="Text literal" textSize="14sp" /> -->
+        <hour_data />
+        <step_count />
+        <goal_complete />
+        <total_distance />
+        <total_calories />
+        <hour_data_week />
+        <step_count_week />
+        <goal_complete_week />
+        <total_distance_week />
+        <total_calories_week />
+        <average_step_count />
+        <hour_data_month />
+        <step_count_week_month />
+        <goal_complete_week_month />
+        <total_distance_week_month />
+        <total_calories_week_month />
+        <average_step_count_month />
+        <sleep_status_view />
+        <total_sleep_time />
+        <sleep_quality />
+        <awake_count />
+        <light_sleep />
+        <deep_sleep />
+        <sleep_status_view_week />
+        <total_sleep_time_week />
+        <sleep_quality_week />
+        <awake_count_week />
+        <light_sleep_week />
+        <deep_sleep_week />
+        <sleep_status_view_month />
+        <total_sleep_time_month />
+        <sleep_quality_month />
+        <awake_count_month />
+        <light_sleep_month />
+        <deep_sleep_month />
+    </_content>
+</screen>

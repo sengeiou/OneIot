@@ -1,0 +1,17 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127895 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/day_activetime_record">
+        <!-- TextView Examples:
+        <text_active_time_date text="@string/string_resource" />
+        <text_active_time_date text="Text literal" textSize="14sp" /> -->
+        <text_active_time_date />
+        <text_hint_exercise_time />
+        <text_exercise_time />
+        <text_total_dis />
+    </_content>
+</screen>

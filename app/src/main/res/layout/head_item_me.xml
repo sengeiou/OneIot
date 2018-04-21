@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/click_ripple_bg"
+    android:layout_marginTop="?actionBarSize"
+    android:clickable="true">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/profile_men"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_avatar"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAMEUSERNAMEUSERNAMEUSERNAME"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/username"
+            android:textSize="30sp"
+            android:maxEms="5"
+            android:singleLine="true"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_avatar"
+            android:layout_below="@+id/tv_username"
+            android:layout_marginLeft="22dp"
+            android:maxEms="9"
+            android:textSize="14sp"
+            android:textColor="@color/tips"
+            android:maxLines="2"
+            android:text="@string/edit_and_view_personal_information"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_arrow_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:padding="15dp"
+        android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_bar_layout_action"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:visibility="gone">
+    <!--android:weightSum="4"-->
+    <TextView
+        android:id="@+id/input_bar_btn_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:drawableTop="@drawable/message_ic_album_bg"
+        android:gravity="center"
+        android:text="@string/lcim_chat_bottom_picture"/>
+
+    <TextView
+        android:id="@+id/input_bar_btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:drawableTop="@drawable/message_ic_camera_bg"
+        android:gravity="center"
+        android:text="@string/lcim_chat_bottom_camera"/>
+</LinearLayout>

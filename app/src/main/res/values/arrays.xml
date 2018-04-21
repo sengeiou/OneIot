@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!--<string name="first_time_summary">First time use step counter</string>-->
+    <!--<string name="more_than_10000_summary">Step more than 10000 in special day</string>-->
+    <!--<string name="more_than_20000_summary">Step more than 20000 in special day</string>-->
+    <!--<string name="more_than_30000_summary">Step more than 30000 in special day</string>-->
+    <!--<string name="asteroids">Asteroids</string>-->
+    <!--<string name="beli">Beli</string>-->
+    <!--<string name="hubell">Hubell</string>-->
+    <!--<string name="miley_q">MileyQ</string>-->
+    <!--<string name="wanli">Wanli</string>-->
+    <!--<string name="total_distance_42">Total distance more than 42 km</string>-->
+    <!--<string name="total_distance_100">Total distance more than 100 km</string>-->
+    <!--<string name="total_distance_500">Total distance more than 500km</string>-->
+    <!--<string name="total_distance_1000">Total distance more than 1000km</string>-->
+    <!--<string name="total_distance_10000">Total distance more than 10000km</string>-->
+
+    <!--<string name="total_distance_42_summary">Total distance more than 42 km</string>-->
+    <!--<string name="total_distance_100_summary">Total distance more than 100 km</string>-->
+    <!--<string name="total_distance_500_summary">Total distance more than 500km</string>-->
+    <!--<string name="total_distance_1000_summary">Total distance more than 1000km</string>-->
+    <!--<string name="total_distance_10000_summary">Total distance more than 10000km</string>-->
+
+
+    <string-array name="day_of_week">
+        <item>@string/sunday</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+    </string-array>
+
+    <string-array name="sedentary_time">
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+    </string-array>
+
+    <!--<string-array name="k3_devices">-->
+    <!--<item>"head"</item>-->
+    <!--<item>@string/sync_data</item>-->
+    <!--<item>@string/sedentary_remind</item>-->
+    <!--<item>@string/call_remind</item>-->
+    <!--<item>@string/sms_remind</item>-->
+    <!--<item>@string/app_notification_remind</item>-->
+    <!--<item>@string/band_alarm</item>-->
+    <!--<item>@string/no_disturbing</item>-->
+    <!--<item>@string/weather_push</item>-->
+    <!--<item>@string/heart_rate_monitor</item>-->
+    <!--<item>@string/tilt_watch_light_screen</item>-->
+    <!--<item>@string/_24_hour_system</item>-->
+    <!--<item>@string/screen_sleep_time</item>-->
+    <!--<item>@string/lose_warn</item>-->
+    <!--<item>@string/other</item>-->
+    <!--<item>@string/modify_band_name</item>-->
+    <!--<item>@string/reset</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="k4_devices">-->
+    <!--<item>"head"</item>-->
+    <!--<item>@string/sync_data</item>-->
+    <!--<item>@string/sedentary_remind</item>-->
+    <!--<item>@string/call_remind</item>-->
+    <!--<item>@string/sms_remind</item>-->
+    <!--<item>@string/app_notification_remind</item>-->
+    <!--<item>@string/band_alarm</item>-->
+    <!--<item>@string/no_disturbing</item>-->
+    <!--<item>@string/heart_rate_monitor</item>-->
+    <!--<item>@string/tilt_watch_light_screen</item>-->
+    <!--<item>@string/_24_hour_system</item>-->
+    <!--<item>@string/hor_and_ver_screen_ctl</item>-->
+    <!--<item>@string/screen_sleep_time</item>-->
+    <!--<item>@string/lose_warn</item>-->
+    <!--<item>@string/other</item>-->
+    <!--<item>@string/modify_band_name</item>-->
+    <!--<item>@string/reset</item>-->
+    <!--</string-array>-->
+
+    <string-array name="me_fragment">
+        <item>"head"</item>
+        <!-- modify by ivan on 18-1-15  -->
+        <!--<item>@string/friend</item>-->
+        <!--<item>@string/medal</item>-->
+        <!-- <item>@string/leaderboard</item>  -->
+        <!--end -->
+        <!--<item>@string/band_target</item>-->
+        <!--<item>@string/fragment_help_title</item>-->
+        <!--&lt;!&ndash; <item>@string/feedback</item>&ndash;&gt;-->
+        <item>@string/settings</item>
+    </string-array>
+
+    <string-array name="personalInformation_fragment">
+        <item>@string/modify_avatar</item>
+        <item>@string/sufaceImage</item>
+        <item>@string/nickname</item>
+        <item>@string/gender</item>
+        <item>@string/birthday</item>
+        <item>@string/height</item>
+        <item>@string/weight</item>
+    </string-array>
+
+    <string-array name="device_name">
+        <item>"CoBand DBL"</item>
+        <item>"CoBand K3"</item>
+        <item>"CoBand K4"</item>
+        <item>"CoBand K9"</item>
+        <item>"CoWatch"</item>
+        <item>"floor"</item>
+    </string-array>
+
+    <string-array name="device_help_name">
+        <item>"CoBand DBL"</item>
+        <item>"CoBand K3"</item>
+        <item>"CoBand K4"</item>
+        <item>"CoWatch"</item>
+    </string-array>
+
+    <string-array name="medal_name">
+        <item>"FirstStep"</item>
+        <item>"Walker"</item>
+        <item>"WangT"</item>
+        <item>"Killer"</item>
+        <item>"Asteroids"</item>
+        <item>"Beli"</item>
+        <item>"Hubell"</item>
+        <item>"MileyQ"</item>
+        <item>"Wanli"</item>
+    </string-array>
+
+    <string-array name="goals">
+        <item>@string/walk</item>
+        <item>@string/sleep</item>
+        <item>@string/weight</item>
+    </string-array>
+
+    <string-array name="settings_with_wechat">
+        <item>@string/unit</item>
+        <item>@string/metric_system</item>
+        <item>@string/inch</item>
+        <item>@string/sport</item>
+        <item>@string/wechat</item>
+        <item>@string/other</item>
+        <item>@string/clear_cache</item>
+        <!--<item>@string/account_and_security</item>-->
+        <!--<item>@string/fragment_help_title</item>-->
+        <!--<item>@string/feedback</item>-->
+        <item>@string/about_imco</item>
+        <item>@string/exit</item>
+    </string-array>
+
+    <string-array name="settings_without_wechat">
+        <item>@string/unit</item>
+        <item>@string/metric_system</item>
+        <item>@string/inch</item>
+        <item>@string/other</item>
+        <item>@string/clear_cache</item>
+        <!--<item>@string/account_and_security</item>-->
+        <!--<item>@string/fragment_help_title</item>-->
+        <!--<item>@string/feedback</item>-->
+        <item>@string/about_imco</item>
+        <item>@string/exit</item>
+    </string-array>
+
+    <!-- refactoring -->
+    <string-array name="module">
+        <item>@string/sleep</item>
+        <item>@string/heart_rate</item>
+        <item>@string/weight</item>
+    </string-array>
+
+    <string-array name="help_title">
+        <item>@string/help_title_1</item>
+        <item>@string/help_title_2</item>
+        <item>@string/help_title_3</item>
+        <item>@string/help_title_4</item>
+        <item>@string/help_title_5</item>
+        <item>@string/help_title_6</item>
+    </string-array>
+
+    <string-array name="help_content">
+        <item>@string/help_content_1</item>
+        <item>@string/help_content_2</item>
+        <item>@string/help_content_3</item>
+        <item>@string/help_content_4</item>
+        <item>@string/help_content_5</item>
+        <item>@string/help_content_6</item>
+    </string-array>
+</resources>

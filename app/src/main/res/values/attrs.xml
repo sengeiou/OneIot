@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressWheel">
+        <attr name="pwText" format="string"/>
+        <attr name="pwTextColor" format="color"/>
+        <attr name="pwTextSize" format="dimension"/>
+        <attr name="pwBarColor" format="color"/>
+        <attr name="pwRimColor" format="color"/>
+        <attr name="pwRimWidth" format="dimension"/>
+        <attr name="pwSpinSpeed" format="dimension"/>
+        <attr name="pwDelayMillis" format="integer"/>
+        <attr name="pwCircleColor" format="color"/>
+        <attr name="pwRadius" format="dimension"/>
+        <attr name="pwBarWidth" format="dimension"/>
+        <attr name="pwBarLength" format="dimension"/>
+        <attr name="pwContourColor" format="color"/>
+        <attr name="pwContourSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="lineLength" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="lineHighlightColor" format="color"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="lineCount" format="integer"/>
+        <attr name="lineWidth" format="float"/>
+        <attr name="gapBetweenCircleAndLine" format="dimension"/>
+        <attr name="progressCircleColor" format="color"/>
+        <attr name="textVisible" format="boolean"/>
+        <attr name="middleTextSize" format="dimension"/>
+        <attr name="middleTextColor" format="color"/>
+        <attr name="topTextColor" format="color"/>
+        <attr name="bottomTextColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="SleepBarChart">
+        <attr name="deepColor" format="color"/>
+        <attr name="lightColor" format="color"/>
+        <attr name="awakeColor" format="color"/>
+        <attr name="labelColor" format="color"/>
+        <attr name="labelSize" format="dimension"/>
+        <attr name="emptyText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RippleLayout">
+        <attr name="color" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="duration" format="integer"/>
+        <attr name="rippleNums" format="integer"/>
+        <attr name="scale" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="SelectedLineChart">
+        <attr name="seeSize" format="integer"/>
+        <attr name="selectedTextSize" format="dimension"/>
+        <attr name="selectedTextColor" format="color|reference"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineChart">
+        <attr name="chartLabelSize" format="dimension"/>
+        <attr name="chartLabelColor" format="color|reference"/>
+    </declare-styleable>
+
+
+</resources>

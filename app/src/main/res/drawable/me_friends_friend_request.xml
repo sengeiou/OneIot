@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:viewportWidth="90"
+    android:viewportHeight="90" android:width="90dp" android:height="90dp">
+    <path android:name="round" android:fillColor="#FFCC00"
+        android:pathData="M0,45a45,45 0 0,1 90,0a45,45 0 0,1 -90,0z" />
+    <path android:name="me_friends_friend_request" android:fillColor="#FFFFFF"
+        android:pathData="M21.018,55.119c0.448-3.111,3.291-4.912,5.87-5.785a97.411,97.411,0,0,1,9.881-2.222l4.5,19.685,1.748-14.352h4.032L48.518,67.3l4.547-20.185s6.508,0.829,10.111,1.778c3.062,0.806,5.376,2.667,5.824,5.778L68.979,68H21ZM57,32A12.082,12.082,0,0,1,45,44,11.792,11.792,0,0,1,33,32,12.082,12.082,0,0,1,45,20c6.462,0.444,12,5.778,12,12h0ZM47.375,51.052H42.73l-0.792-1.929a2.536,2.536,0,0,1,2.536-2.536h1.051a2.536,2.536,0,0,1,2.536,2.536Z" />
+</vector>

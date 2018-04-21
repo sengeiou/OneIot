@@ -1,0 +1,20 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127911 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/coco_sleep_content">
+        <!-- TextView Examples:
+        <connect text="@string/string_resource" />
+        <connect text="Text literal" textSize="14sp" /> -->
+        <connect />
+        <deep_sleep />
+        <light_sleep />
+        <awake_count />
+        <sleep_total_time />
+        <sleep_quality />
+        <goal_complete />
+    </_content>
+</screen>

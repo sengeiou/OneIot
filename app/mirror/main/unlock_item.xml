@@ -1,0 +1,19 @@
+<!-- [ Mirror metadata ] generatedAt: 1467706127925 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/unlock_item">
+        <!-- ImageView Examples:
+        <smart_unlock_icon src="@drawable/image_resource" />
+        <smart_unlock_icon src="relative_path/image.jpg" /> -->
+        <smart_unlock_icon />
+        <!-- TextView Examples:
+        <text_unlock_remind text="@string/string_resource" />
+        <text_unlock_remind text="Text literal" textSize="14sp" /> -->
+        <text_unlock_remind />
+        <text_unlock_status />
+    </_content>
+</screen>
